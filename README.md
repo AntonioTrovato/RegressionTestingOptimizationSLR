@@ -17,9 +17,3 @@ In questo step, ciascun paper è stato classificato come Systematic Literature R
 
 ## 5_Snowballing
 Una volta classificati i paper, è stato eseguito backward snowballing. Successivamente forward snowballing. I risultati sono stati uniti, ogni paper incluso durante lo snowballing è stato sottoposto agli inclusion ed exclusion criteria.
-
-## 6_Quality_Appraisal
-Ogni paper è stato sottoposto ad una validazione qualitativa del contenuto. Sono stati valutati riviste e conferenze che hanno pubblicato i lavori e parametri qualitativi basati sulle linee guida DARE. 4 diversi revisori hanno eseguito questa fase a coppie per ogni paper.
-
-## 7_Data_Extraction
-Nell'ultima fase, i paper selezionati sono stati equamente divisi tra i 4 revisori, al fine di raccogliere le informazioni necessarie per la valutazione dello stato dell'arte in materia di Regression Testing Optimization. 
