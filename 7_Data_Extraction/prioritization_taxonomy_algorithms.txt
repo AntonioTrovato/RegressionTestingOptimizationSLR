@@ -1,0 +1,60 @@
+1.
+(clustering, heuristic) [2] = paper_43, paper_59
+2.
+(cost, graph) [1] = paper_28 [multi-obj]
+3.
+(cost, heuristic) [2] = paper_5 [multi-obj], paper_56
+4.
+(cost, meta) [2] = paper_48, paper_55 [multi-obj]
+5.
+(cost, ml) [1] = paper_112
+6.
+(coverage, graph) [3] = paper_25, paper_28 [multi-obj], paper_49
+7.
+(coverage, greedy) [15] = paper_36, paper_44, paper_63, paper_68, paper_70, paper_75, paper_77, paper_80, paper_82, paper_83 [multi-obj], paper_84 [multi-obj], paper_91, paper_106, paper_124, paper_125
+8.
+(coverage, heuristic) [12] = paper_5 [multi-obj], paper_10, paper_29, paper_40, paper_50, paper_52, paper_58, paper_63, paper_72 [multi-obj], paper_105, paper_106, paper_125
+9.
+(coverage, meta) [12] = paper_25, paper_33, paper_47, paper_51 [multi-obj], paper_55 [multi-obj], paper_60 [multi-obj], paper_62 [multi-obj], paper_65, paper_99 [multi-obj], paper_104, paper_111 [multi-obj], paper_124
+10.
+(coverage, ml) [5] = paper_18 [multi-obj], paper_73, paper_102, paper_103, paper_118 [multi-obj]
+11.
+(distribution, heuristic) [3] = paper_16, paper_20, paper_22
+12.
+(distribution, ml) [3] = paper_13, paper_18 [multi-obj], paper_54
+13.
+(history, graph) [1] = paper_25
+14.
+(history, heuristic) [11] = paper_5 [multi-obj], paper_6, paper_16, paper_23, paper_27 [multi-obj], paper_66, paper_114, paper_115, paper_116, paper_120, paper_121
+15.
+(history, meta) [1] = paper_25
+16.
+(history, ml) [10] = paper_24 [multi-obj], paper_26, paper_30, paper_31, paper_100, paper_101, paper_103, paper_112, paper_119, paper_120
+17.
+(human, ml) [2] = paper_17, paper_54
+18.
+(model, graph) [2] = paper_2, paper_49
+19.
+(model, greedy) [1] = paper_74
+20.
+(model, heuristic) [2] = paper_9, paper_123 [multi-obj]
+21.
+(model, meta) [2] = paper_21, paper_96 [multi-obj]
+22.
+(other, greedy) [1] = paper_88
+23.
+(other, heuristic) [1] = paper_121
+24.
+(other, meta) [1] = paper_98
+25.
+(other, ml) [3] = paper_100, paper_101, paper_102
+26.
+(probability, heuristic) [1] = paper_113
+27.
+(probability, ml) [6] = paper_8, paper_13, paper_14, paper_34, paper_53, paper_64
+28.
+(requirement, heuristic) [4] = paper_4, paper_5 [multi-obj], paper_19 [multi-obj], paper_90
+29.
+(requirement, meta) [1] = paper_15 [multi-obj]
+30.
+(requirement, ml) [2] = paper_18 [multi-obj], paper_100

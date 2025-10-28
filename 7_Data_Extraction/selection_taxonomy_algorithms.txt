@@ -1,0 +1,18 @@
+1.
+(design, heuristic) [2] = paper_109, paper_110
+2.
+(graph, graph) [2] = paper_35, paper_76
+3.
+(graph, meta) [1] = paper_61 [multi-obj]
+4.
+(integer, dynamic) [1] = paper_89
+5.
+(integer, meta) [4] = paper_12 [multi-obj], paper_95 [multi-obj], paper_107 [multi-obj], paper_122 [multi-obj]
+6.
+(modification, greedy) [1] = paper_93 [multi-obj]
+7.
+(modification, heuristic) [2] = paper_7, paper_11
+8.
+(modification, meta) [1] = paper_93 [multi-obj]
+9.
+(modification, ml) [1] = paper_108 [multi-obj]
