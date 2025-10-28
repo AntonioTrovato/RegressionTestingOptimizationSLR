@@ -1,0 +1,168 @@
+Nature Inspired Approaches for Test Case Selection in Regression Testing: A Review %% 2023,selection %% nan %% meta-heuristic-based %% nan %% SIR %% nan
+Test Case Prioritization for GUI Regression Testing Based on Centrality Measures %% {2018,Prioritization} %% Model-based %% graph-based %% Single-Objective %% TerpPaint, TerpSpreadSheet %% APFD
+A Systematic Literature Review on Test Case Prioritization and Regression Test Selection %% 2023,selection+prioritization %% nan %% nan %% nan %% nan %% APFC, APBC, APSC, APTC, APMK, NRPA
+Test case prioritization based on requirement correlations %% {2016,Prioritization} %% Requirement-based %% Heuristic-based %% Single-Objective %% // %% AFDP
+Dynamic test case prioritization based on multi-objective %% {2014,Prioritization} %% coverage,history,requirements,cost %% Heuristic-based %% Multi-obj %% // %% APBC(Average Percentage Block Coverage)
+History-Based Dynamic Test Case Prioritization for Requirement Properties in Regression Testing %% {2016,Prioritization} %% History-based %% Heuristic-based  %% Single-objective %% CPMISS %% APFD,FDR(fault detection rate)
+Towards Tool-Support for Test Case Selection in Manual Regression Testing %% 2013,selection %% Modification-based %% heuristic-based %% single-objective %% nan %% numero test selezionati
+A Tag-based Recommender System for Regression Test Case Prioritization %% {2021,prioritization} %% Probability-based %% ML-based %% (Non classificato, o comunque single-objective) %% nopCommerce,Umbraco,XStream,JFreeChart,Joda-Time,Commons-
+Lang, %% Precision, Recall, and F-Measure, (APFD
+Modification Impact Analysis Based Test Case Prioritization for Regression Testing of Service-Oriented Workflow Applications %% {2015,prioritization} %% Model-based %% Heuristic-based   %% Single-Objective %% Travel,ATM,GYMLocker,LoanApproval,MarketPlace,Auction,RiskAssessment,Loan %% APFD 
+A Regression Test Case Prioritization Algorithm Based on Program Changes and Method Invocation Relationship %% 2017,prioritization %% Coverage-based  %% Heuristic-based %% Single-Objective %% 9 SIR programs: print_tokens ,print_tokens 2,replace,schedule,schedule2,tcas,totinfo,flex,sed,xml-security ,commons lang %% APFD
+Comparing and Combining File-based Selection and Similarity-based Prioritization towards Regression Test Orchestration %% 2022,prioritization+selection %% Modification-based, %% heuristic-based %% single-objective %% 12Defect4j projects:chart,cli,closure,codec,collections,compress,gson,jsoup,jxpath,lang,math,time %% Time to first failure,apfd,user+system execution time
+An Effective Approach for Regression Test Case Selection Using Pareto Based Multi-Objective Harmony Search %% 2018,selection %% nan %% meta-heuristic-based %% multi-objective %% (SIR)flex(5 versions),grep,gzip,5 versions of nano-xml, xml-security %% %age calculated on the basis of max. Faults coverable and max
+faults covered for each subject program
+A Clustering-Bayesian Network Based Approach for Test Case Prioritization %% 2015,prioritization %% Probability-based+Distribution-based %% ML-based %% Non classificato ma al più single %% xml-security,jtopas,ant taken from SIR %% AFDP
+TCP-Net: Test Case Prioritization using End-to-End Deep Neural Networks %% 2022,prioritization %% Probability-based %% ML-based %% Non classificato ma al più single %% Calibre Auto-Waivers,Calibre PERC,Calibre nmDRC %% AFDP, accuracy F1 recall precision,trainable parameters
+On Test Case Prioritization Using Ant Colony Optimization Algorithm %% 2019,prioritization %% Requirement-based %% meta-heuristic-based %% Multi-obj %% A triangle classification program %% eAPWC-1 ,eAPWC-2,use case distance
+An Empirical Comparison of Similarity Measures for Abstract Test Case Prioritization %% 2017,prioritization %% distribution,history %% Heuristic-based %% nan %% flex,grep,sed,gzip,make(all from SIR) %% average percentage of
+λ-wise combinations covered (APCC),APFD,
+System-Level Test Case Prioritization Using Machine Learning %% 2016,prioritization %% human  %% ML-based %% Single-obj %% Body Comfort System,Automotive Industry Data %% APFD
+Test Case Prioritization Using Requirements-Based Clustering %% 2013,prioritization %% Hybrid: Requirement-Based + Distribution-Based + Coverage-Based %% ML-Based  %% multi-objective %% Capstone,iTrust %% APFD
+A Systematic Requirements and Risks-Based Test Case Prioritization Using a Fuzzy Expert System %% 2019,prioritization %% Requirement-based %% Heuristic-based %% multi-objective %% iTrust,PasswordSafe,Capstone %% APFD
+PORA: Proportion-Oriented Randomized Algorithm for Test Case Prioritization %% 2015,prioritization %% distribution-based %% Heuristic-based %% Single-obj %% flex,grep,gzip,sed (SIR) %% APFD, prioritization execution time(seconds)
+A Test Case Prioritization Based on Genetic Algorithm With Ant Colony and Reinforcement Learning Improvement %% 2023,prioritization %% Model-based %% Meta-Heuristic/Hybrid %% Single-obj %% loud-network
+convergence platform %% Target Test Path Finding Rate
+Test Case Prioritization Using Adaptive Random Sequence with Category-Partition-Based Distance %% 2016,prioritization %% distribution-based %% Heuristic-based %% Single-Objective %% from unix utilities and the SIR: cal,comm,look,spline,uniq,print_tokens,print_tokens2,replace,schedule,schedule2,tot_info %% APFD,CP and Manhattan distance, time for prioritization (milliseconds)
+A similarity-based approach for test case prioritization using historical failure data %% 2015,prioritization %% History-based %% Heuristic-based %% Single-Objective %% defects4j datasets:commons lang, jfrechart,commons math,joda time,closure compiler %% Hamming Distance (HD), traditional history based (TM),basic counting,edit distance,improved basic counting,test case sizes,method coverage,changed method coverage
+Leveraging Rough Sets for Enhanced Test Case Prioritization in a Continuous Integration Context %% 2024,prioritization %% History-based %% ML-Based  %% Non classificato ma al più multi %% Paint Control,
+IOF/ROL and GSDTSR %% NAFPD,
+Assessing Test Case Prioritization on Real Faults and Mutants %% 2018,prioritization %% Coverage- and History-based %% greed heuristic graph meta-heuristic %% Multi/single obj %% JFreeChart,closure compiler,commons math,joda-time,commons lang   %% APFD,APFDc,Kendall τ rank,coupling between real faults and mutants,mutation operator type
+Machine Learning Regression Techniques for Test Case Prioritization in Continuous Integration Environment %% 2022,prioritization %% History-based %% ML-based  %% Non classificato ma al più single %% Druid,fatjson,deeplearning4jdspace,guava,iof/rol,lexisnexis,okhttp,paintcontrol,retrofit,zxing %% NAPFD,average percentage of Faults Detected with cost consideration (APFDc)
+Multi-perspective Regression Test Prioritization for Time-Constrained Environments %% 2015, prioritization %% History-based %% Heuristic-based (weighted sum) %% Multi-objective %% nan %% APFD
+Graphite: A Greedy Graph-Based Technique for Regression Test Case Prioritization %% 2018,prioritization %% coverage,cost %% graph-based %% Multi-objective %% nopCommerce,Umbraco-CMS ,jmeter,jtopas %% test case execution time,percentage of suite runned,APFD
+Is XML-Based Test Case Prioritization for Validating WS-BPEL Evolution Effective in Both Average and Adverse Scenarios? %% 2014,prioritization %% Coverage-based %% Heuristic %% single-objective %% atm,buybook,dslservice,gymlocker,loanapprovalò,marketplace,purchase,triphandling %% APFD
+Test Case Prioritization Based on Information Retrieval Concepts %% 2014,prioritization %% History-based %% ML-Based  %% Non classificato ma al più single %% Xml-Security(from sir),  Commons-CLI, Commons-Collections,Joda-Time %% AFPD
+Revisiting Machine Learning based Test Case Prioritization for Continuous Integration %% 2023,prioritization %% History-based %% ML-Based  %% Non class ma multi/single %% bcel,csv,dhcp,text,java-faker,jedis,jsoup,jspirit,maxwell,nfe,spring-data-redis %% Normalized Time Reduction (NTR),AFPD,NRPA,RPA,(milliseconds)prediction time
+An Empirical Study of Regression Testing for Android Apps in Continuous Integration Environment %% Selection %% nan %% nan %% nan %% nan %% nan
+Change-Aware Regression Test Prioritization using Genetic Algorithms %% 2022,prioritization %% Coverage-based %% meta-heuristic-based %% Single-objective %% AssertJ,JOpt,Metrics %% AFPD
+Scalable and Accurate Test Case Prioritization in Continuous Integration Contexts %% Pub Year = 2022
+Method = Prioritization %% Probability-based %% ML-based algorithms %% nan %%  tcp-ci-dataset %% APFD, retrain frequency, feature impact
+ReTestDroid: towards safer regression test selection for android application %% Pub Year = 2018
+Method = Selection %% graph-walk %% graph-based %% nan %% SUT usati:
+K9-Mail
+Music (Android built-in)
+Open Sudoku
+Tomdroid
+Mozilla Firefox Mobile %% Safety, % di test selezionati, Test suite execution time
+How does regression test prioritization perform in real-world software evolution? %% Pub Year = 2016
+Method = Prioritization %% Coverage-based %% Greedy algorithm %% Single-objective %% jasmine-maven, java-apns, jopt-simple, la4j, scribe-java, vraptor-core, assertj-core, metrics-core %%  APFD, var. APFD, statistical significance tests
+Test case selection for all-uses criterion-based regression testing of composite service %% Pub Year = 2019
+Method = Selection %% others %% Heuristic-based %% nan %% Loan Composite Service %% Qualitative/Effectiveness
+An extensive study of static regression test selection in modern software evolution %% Pub Year = 2016
+Method = Selection %% graph-walk %% graph-based %% nan %% invokebinder, logback-encoder, compile-testing, commons-cli, commons-dbutils, commons-fileupload, commons-validator, asterisk-java, commons-codec, commons-compress, commons-email, commons-collections, commons-lang, commons-imaging, commons-dbcp, HikariCP, commons-io, addthis.stream-lib, commons-math, OpenTripPlanner, commons-pool2, jankotek.mapdb %%  #Tests selected, Time, Safety %, Precision %
+Hybrid regression test selection %%   %% Modification-based %% Heuristic-based %% nan %% invokebinder, compile-testing, logstash-logback-encoder, commons-cli, joda-time, commons-dbutils, commons-validator, commons-fileupload, asterisk-java, commons-functor, la4j, commons-jxpath, commons-email, commons-compress, commons-codec, jfreechart, commons-collections, commons-lang, commons-imaging, commons-configuration, commons-net, closure-compiler, java-apns, commons-io, commons-math, commons-dbcp, log4j, stream-lib, HikariCP, OpenTripPlanner, commons-pool, mapdb %% Selected Test Ratio; AE time (Analysis + Execution); AEC time (Analysis + Execution + Collection)
+Hansie: Hybrid and consensus regression test prioritization %% Pub Year = 2021
+Method = Prioritization %% Coverage-based %% Heuristic-based %% nan %% Software-artifact Infrastructure Repository (SIR), GTSP %% APFD, APFDc, EPS , ECC,  EPLω, Kendall-τ and Hansie distances for consensus quality
+Test case minimization with quantum annealers %% Pub Year = 2024
+Method = Minimization %% Search-based, Quantum, Minimization %% meta-heuristic-based %% Multi-objective %% PaintControl, GSDTSR, IOF/ROL %% FV, exTime, Embedding time, significance tests
+Nature-inspired metaheuristic methods in software testing %% Pub Year = 2023
+Method = None (Survey) %% nan %% nan %% nan %% nan %% nan
+A novel test case prioritization approach for black‐box testing based on K‐medoids clustering %% Pub Year = 2024
+Method = Prioritization %% clustering %% Heuristic-based %% nan %% Siemens suite %% APFD, execution time, first-fault position, p-value
+Dominating set-based test prioritization algorithms for regression testing %% Pub Year: 2022
+Method= Prioritization %% Coverage-based %% greedy %% nan %% simulato %% Test cases needed to cover all requirements, execution time per algorithm (in seconds), % of requirements covered, Comparison against GA, ACO, PSO
+Functional Requirement-Based Test Case Prioritization in Regression Testing: A Systematic Literature Review %% Pub Year: 2021
+Method: Prioritization %% nan %% nan %% nan %% nan %% nan
+Trend application of machine learning in test case prioritization: A review on techniques %% Pub Year: 2021
+Method: Prioritization %% nan %% nan %% nan %% nan %% nan
+Segment-Based Test Case Prioritization: A Multi-objective Approach %% Pub Year: 2024
+Method: Prioritization %% Coverage-based %% meta-heuristic-based %% nan %% addressbook, claroline, dimeshift, pagekit, phoenix, ppma,  juice_shop , mattermost, moodle  %% APFD, APFDc, MTFD, NAPFD, FDR
+Test scenario prioritization from user requirements for web-based software %% Pub Year: 2021
+Method: Prioritization %% Search-based, Cost-aware %% meta-heuristic-based %% nan %% SUT usati:
+flex
+grep
+gzip
+sed
+space %% APFD, APFDc (cost-aware), MTD, RE, FEM, FSE,  
+Enhanced regression testing technique for agile software development and continuous integration strategies %% Pub Year = 2019
+Method = Prioritization %% Model-based prioritization, coverage-based %% graph-based %% nan %% OMTBS, CRS, TAS %% APFD, execution time
+Fault-Based Regression Test Case Prioritization %% Pub Year = 2022
+Method = Prioritization %% Coverage-based %% Heuristic-based %% nan %% Tetris, Ant, Jasmine, GCT, Zen, Freemind, Empi, Redraw %% APFD, fault detection rate
+Test case prioritization and reduction using hybrid quantum-behaved particle swarm optimization %% Pub Year = 2022
+Method = Prioritization, Minimization %% Coverage-based %% meta-heuristic-based %% Multi-objective %% ATM, LMS, CMS %% APFD, test set reduction, execution cost, diversity
+Test case prioritization, selection, and reduction using improved quantum-behaved particle swarm optimization %% Pub Year: 2022
+Method: Prioritization %% Coverage-based %% Heuristic-based %% nan %% Smart Irrigation System %% APFD, AET
+Test case prioritization using transfer learning in continuous integration environments %% Pub Year: 2023
+Method: Prioritization %% Probability-based %% ML-based Transfer Learning-based %% nan %% commons-math, commons-lang, commons-io, commons-codec, joda-time, mockito %% Cost-Aware APFDc, nDCG, F1-score, Execution cost, Training time / Inference time
+Comparing and combining analysis-based and learning-based regression test selection %% Pub Year: 2022
+Method: Prioritization %% Human-based, Distribution-based %% ML-based %% nan %% Time, Math, Lang, Mockito, Closure %% APFD,  APFDc,  Effectiveness on flaky tests, Execution time 
+A multi-goal particle swarm optimizer for test case prioritization %% Pub Year: 2023
+Method: Prioritization %% Search-based, Cost-aware, coverage %% meta-heuristic-based %% Multi-objective %% FreeMind , jEdit  %% APFD, APFDc. Mean Fault Detection Time. F1-score (per cluster quality). Pareto dominance comparisons. Wilcoxon signed-rank test
+Severity-aware prioritization of system-level regression tests in automotive software %% Pub Year: 2023
+Method: Prioritization %%  Cost-aware  %% heuristic-based %% nan %% Software embedded automotive reale (fornito da azienda partner) %% Time to Risk Detection, Number of High-severity Faults Detected Early, Execution time of prioritization method
+On the search for industry-relevant regression testing research %% Segnato come PS ma é una SLR %% nan %% nan %% nan %% nan %% nan
+Application of the law of minimum and dissimilarity analysis to Regression Test Case Prioritization %% Pub Year = 2023
+Method = Prioritization %% Coverage-based %% Heuristic %% Single-objective %% ATM, Banking, Reservation %% execution time, redundancy rate
+Regression test optimization and prioritization using Honey Bee optimization algorithm with fuzzy rule base %% Pub Year = 2021
+Method = Prioritization %% clustering %% Heuristic %%   %% Banking, ATM %% APFD, execution time
+Analytic hierarchy process-based regression test case prioritization technique enhancing the fault detection rate %% Pub Year: 2022
+Method: Prioritization %% Coverage-based %% meta-heuristic-based %% Three-objective %% dataset sintetici %% APFD, execution time, redundancy metrics
+A Detection-Based Multi-Objective Test Case Selection Algorithm to Improve Time and Efficiency in Regression Testing %% Pub Year: 2024
+Method: Selection %% graph-walk %% meta-heuristic-based %% Three-objective %% Banking Management System, Library Management System, Online Voting System %% F-measure, Time saving percentage, Detection effectiveness
+Evaluating Search-Based Software Microbenchmark Prioritization %% Pub Year: 2024
+Method: Prioritization %% Coverage-based %% meta-heuristic-based %% Multi-objective %% Commons-math, Commons-io, Apache Avro, H2, etc %% Performance Degradation Detection Rate, Execution Cost, Utility Score, Pareto Front, Wilcoxon signed-rank test
+Input-based adaptive randomized test case prioritization: A local beam search approach %% Pub Year: 2015
+Method: Prioritization %% Coverage-based %% Heuristic-based greedy %% Single-objective %% JTopas, XML-Security, Ant, JMeter, JParsec, JFreeChart %% APFD, Mutation Score, Test Suite Size, Execution Time, Wilcoxon signed-rank test, Effect size analysis
+Reinforcement Learning Based Test Case Prioritization for Enhancing the Security of Software %% 1. 2020; 2. Prioritization %% Probability-based %% ML-based algorithms %% nan %% ABB Robotics Norway2, Google Open Source Data Set %% Normalized APFD
+A Test Case Prioritization Approach Based on Software Component Metrics %% 1. 2019; 2. Prioritization %% Coverage-based %% meta-heuristic-based heuristic-based %% Single %% SIR %% APFD
+Cost-Effective Regression Testing Using Bloom Filters in Continuous Integration Development Environments %% 1. 2017; 2. Selection and Prioritization %% Probability-based %% Heuristic-based  %% nan %% Google Open Source Data Set %% Failure-detection efficiency
+Prioritizing Browser Environments for Web Application Test Execution %% Prioritization %% nan %% nan %% nan %% nan %% nan
+An Empirical Study on the Spreading of Fault Revealing Test Cases in Prioritized Suites %% 1. 2019; 2. Prioritization %% Coverage-based %% Greedy algorithms %% Single %% https://dl.acm.org/doi/abs/10.1145/2884781.2884874 %% APFD and M-Spreading
+Conc-iSE: Incremental symbolic execution of concurrent software %% Selection %% nan %% nan %% nan %% nan %% nan
+Failure history data-based test case prioritization for effective regression test %% 1. 2017; 2. Prioritization %% Coverage-based %% Greedy algorithm %% nan %% Two Apache projects: Tomcat and Camel %% APFD
+A survey on different approaches for software test case prioritization %% 1. 2021; 2. Prioritization %% SLR %% nan %% nan %% nan %% nan
+Employing rule mining and multi-objective search for dynamic test case prioritization %% 1. 2019; 2. Prioritization %% Coverage-based %% Heuristic-based  %% Multi %% Cisco datasets related to VCS products, ABB Robotics Norway2, Google Open Source Data Set %% Average Percentage of Fault Detected per Cost
+Test case prioritization for object-oriented software: An adaptive random sequence approach based on clustering %% 1. 2019; 2. Prioritization %% Coverage-based %% ML-based algorithms %% nan %% Open source dataset %% Number of the test cases executed before finding the first fault; number of distinct faults detected by a specific number of test cases; APFD
+Test case prioritization for model transformations %% 1. 2021; 2. Prioritization %% Model-based %% greedy %% Single %% BibTeX2DocBook, UML2ER, CPL2SPL, Ecore2Maude %% APFD
+Relation-based test case prioritization for regression testing %% 1.2020; 2. Prioritization %% Coverage-based %% greedy %% Single %% Open source dataset %% APFD
+Component-based architectural regression test selection for modularized software systems %% 1. 2025; 2. Selection %% graph-walk %% graph-based %% Single %% Open source dataset %% Number of detected safety violations, precision of the detected safety violations, test suite reduction
+Regression test case prioritization by code combinations coverage %% 1. 2020; 2. Prioritization %% Coverage-based %% greedy %% Single %% 14 versions of four Java programs downloaded from the Software-artifact Infrastructure Repository %% APFD, Average Percentage of Fault Detected per Cost
+Integrated optimization of test case selection and sequencing for reliability testing of the mainboard of Internet backbone routers %% Selection %% nan %% nan %% nan %% nan %% nan
+Generic and industrial scale many-criteria regression test selection %% 1. 2023; 2. Selection %% integer programming %% greed y %% Multi %% Two proprietary systems %% Hypervolume indicator
+Test case prioritization using partial attention %% 1.2022; 2. Prioritization %% Coverage-based %%  greedy %% Single %% 19 versions of four Java programs downloaded from the Software-artifact Infrastructure Repository %% APFD
+Test case prioritization approaches in regression testing: A systematic literature review %% 1. 2018; 2. Prioritization %% SLR %% nan %% nan %% nan %% nan
+QTEP: Quality-aware test case prioritization %% 1. 2017; 2. Prioritization %% Coverage-based %% Greedy algorithms %% Single %% 33 versions of seven open source Java projects %% APFD
+Empirical evaluation of mutation-based test case prioritization techniques %% 1.2018; 2. Prioritization %% Coverage-based %% greedy %% Multi %% 7 systems from Defects4J %% APFD
+An Empirical Study on the Use of Defect Prediction for Test Case Prioritization %% 1. 2019; 2. Prioritization %% Coverage-based %% greedy %% Two %% 5 faults of each of the 7 systems from Defects4J %% APFD
+Test-case prioritization: achievements and challenges %% 1. 2016; 2. Prioritization %% SR %% nan %% nan %% nan %% nan
+ A survey on different approaches for software test case prioritization %% 1. 2021; 2. Prioritization %% SR %% nan %% nan %% nan %% nan
+A systematic literature study of regression test case prioritization approaches %% 1. 2018; 2. Prioritization %% SLR %% nan %% nan %% nan %% nan
+Location‐Based Test Case Prioritization for Software Embedded in Mobile %% 1. 2019; 2. Prioritization %% Others %% greedy %% Single %% An industrial case study %% APFD and APFDc
+Test case selection-prioritization approach based on memoization dynamic programming algorithm %% 1. 2019; 2. Selection and Prioritization %% Others %% Dynamic programming %% Single %% A manually developed case study %% memory consumption
+Test case prioritization using requirements-based clustering %% 1. 2013; 2. Prioritization %% Requirement-based %% Heuristic-based  %% Single %% Two systems %% APFD
+Comparing white-box and black-box test prioritization %% 1. 2016; 2. Prioritization %% Coverage-based %% greedy %% Single %% 5 programs from the SIR repository - each with 5 versions %% APFD and Jaccard coefficient
+Test case prioritization: a systematic mapping study %% 1. 2012; 2. Prioritization %% SMS %% nan %% nan %% nan %% nan
+Improving multi-objective test case selection by injecting diversity in genetic algorithms %% 1. 2015; 2. Selection %% Modification-based %% greedy meta-heuristic %% Multi %% 5 programs from the SIR repository %% Size of Pareto frontier, number of non-dominated solutions, hypervolume
+Effective regression test case selection: A systematic literature review %% 1. 2017; 2. Selection %% SLR %% nan %% nan %% nan %% nan
+An effective approach for regression test case selection using pareto based multi-objective harmony search %% Selection %% Others %% meta-heuristic-based %% Two-objectives (?) Not clear %% SIR (subset with 12 versions of 5 projects) %% Number of faults detected and execution time
+Regression test case selection and prioritization for object oriented software %% Selection and Prioritization %% Model-based %% meta-heuristic-based %% Two-objectives %% Custom (five programs) %% APFD
+Systematic literature review on test case selection and prioritization: A tertiary study %% Prioritization and Selection %% Not applicable for SLR? %% nan %% nan %% nan %% nan
+A uniform representation of hybrid criteria for regression testing %% Prioritization, Selection, Minimization %% Others %% Heuristic-based meta-heuristic %% nan %% Custom (7 event driven systems, 4 gui and 3 web apps) %% APFD
+Analysis of test case prioritization in regression testing using genetic algorithm %% Prioritization %% Coverage-based %% meta-heuristic-based %% Two-objectives %% Custom %% Code coverage, time (no faults it seems)
+Machine learning-driven test case prioritization approaches for black-box software testing %% Prioritization %% History-based, Requirements-based; Others %% ML-based %% nan %% Custom %% APFD
+Reinforcement Learning for Test Case Prioritization %% Prioritization %% History-based, Others %% ML-based (Reinforcement Learning) %% nan %% Two dataset (one from previous work with two projects) one enriched consisting of six projects from the Apache Commons project %% NRPA, APFD
+Incorporating fault-proneness estimations into coverage-based test case prioritization methods %% Prioritization %% Coverage-based, Other: Fault-proneness estimation %% ML-based %% nan %% Defects4J %% APFD
+Test case prioritization using test case diversification and fault-proneness estimations %% Prioritization %% Coverage-based, History-based; Diversity-based; %% ML-based %% nan %% Defects4J %% First-failing metric
+Ant colony system with sorting-based local search for coverage-based test case prioritization %% Prioritization %% Coverage-based %% meta-heuristic-based %% Single- %% Defects4J %% APFD; APBC; APFC
+Risk-Based Test Case Prioritization by Correlating System Methods and Their Associated Risks %% Prioritization %% Coverage-based %% Heuristic-based %% nan %% Custom %% APFD
+Relation-based test case prioritization for regression testing %% Prioritization %% Coverage-based %% Heuristic-based (greedy) %% nan %% Custom %% APFD
+Multi-objective regression test selection in practice: An empirical study in the defense software industry %% Selection %% Coverage-based; %% meta-heuristic-based %% Three-objectives %% Industrial (proprietary) %% Fault detection ability, number of detected faults
+Multi-objective test case selection through linkage learning-based crossover %% Selection %% Modification-based %% ML-based %% Three-objectives %% SIR (subset with 4 projects) %% Fault-detection capability
+Model-based regression test selection for validating runtime adaptation of software systems %% Selection %% Design-based  %% Heuristic %% nan %% Custom (two apps) %% Fault-detection capability
+A fuzzy logic based approach for model-based regression test selection %% Selection %% Design-based; %% Heuristic %% nan %% Custom (single app) %% Fault-detection capability
+A Test Case Prioritization Genetic Algorithm Guided by the Hypervolume Indicator %% Prioritization %% Coverage-based %% meta-heuristic-based %% Up to three %% SIR (5 GNU utils) %% APFD corrected; running time
+Reinforcement learning for automatic test case prioritization and selection in continuous integration %% Prioritization and Selection %% History-based; Cost-aware;  %% ML-based %% nan %% nan %% Normalized APFD
+Using fuzzy logic in test case prioritization for regression testing programs with assertions %% Prioritization %% Probability-based; %% Heuristic-based %% nan %% Custom (9 programs) %% APVA (assertion violations?)
+Techniques for improving regression testing in continuous integration development environments %% Selection; Prioritization %% History-based; %% Heuristic-based %% nan %% Google Dataset %% Fault-detection capability; APFD
+Prioritizing dissimilar test cases in regression testing using historical failure data %% Prioritization;  %% History-based; %% Heuristic-based %% nan %% Defects4J %% APFD
+Exploring Better Black-Box Test Case Prioritization via Log Analysis %% Prioritization %% History-based %% Heuristic-based (multiple variants) %% nan %% Custom (10 projects from github) %% APFD
+Static test case prioritization using topic models %% Prioritization %% Probability-based %% NLP-based %% nan %% Custom %% APFD
+Empirical evaluation of pareto efficient multi-objective regression test case prioritisation %% Prioritization %% Coverage-based %% ML-based %% Multi- %% Custom (PARTLY FROM SIR) %% APFD_C
+Deeporder: Deep learning for test case prioritization in continuous integration testing %% Prioritization %% History-based %% ML-based (Deep Learning) %% nan %% GSDTSR, ABB Robotics, One Proprietary by CISCO %% APDF and NAPFD
+Cluster-based adaptive test case prioritization %% Prioritization %% History-based %% ML-based (clustering-unsupervised); Heuristic-based %% nan %% SIR (4 projects) %% APFD; APFD_C
+A regression test case prioritization technique targeting 'hard to detect'faults %% Prioritization %% Other; History-based %% Heuristic %% nan %% Defects4J and SIR (22 projects) %% APFD_C
+Seeding strategies for multi-objective test case selection: an application on simulation-based testing %% Selection %%  Other %% meta-heuristic-based %% Up to three %% Custom (simulation.-based testing) %% APFD_c
+A Multi-Objective Technique to Prioritize Test Cases %% Prioritization %% Model-based %% Heuristic-based %% Multi- %% Custom %% APFD
+A large-scale empirical comparison of static and dynamic test case prioritization techniques %% Prioritization %%  Coverage-based %% Heuristic greedy meta-heuristic %% nan %% Custom %% APFD
+AGA: An Accelerated Greedy Additional Algorithm for Test Case Prioritization %% Prioritization %% Coverage-based %% Heuristic (greedy) %% nan %% Custom %% APFD, time effectiveness
