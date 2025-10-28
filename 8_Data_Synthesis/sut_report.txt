@@ -1,0 +1,14 @@
+prioritization
+SIR [18] : paper_10, paper_13, paper_16, paper_20, paper_22, paper_26, paper_28, paper_30, paper_40, paper_48, paper_50, paper_63, paper_65, paper_91, paper_111, paper_118, paper_120, paper_121
+Defects4J [18] : paper_8, paper_10, paper_11, paper_23, paper_25, paper_30, paper_31, paper_53, paper_54, paper_62, paper_63, paper_83, paper_84, paper_102, paper_103, paper_104, paper_115, paper_121
+Apache Projects [13] : paper_8, paper_10, paper_13, paper_23, paper_25, paper_28, paper_30, paper_50, paper_53, paper_62, paper_63, paper_70, paper_101
+Industrial / Proprietary [8] : paper_17, paper_43, paper_64, paper_66, paper_72, paper_88, paper_114, paper_119
+Other Public Repositories [47] : paper_2, paper_6, paper_8, paper_9, paper_14, paper_15, paper_18, paper_19, paper_21, paper_24, paper_28, paper_29, paper_33, paper_34, paper_36, paper_44, paper_47, paper_49, paper_50, paper_51, paper_52, paper_55, paper_56, paper_58, paper_59, paper_60, paper_68, paper_73, paper_74, paper_75, paper_77, paper_80, paper_82, paper_89, paper_90, paper_96, paper_98, paper_99, paper_100, paper_105, paper_106, paper_113, paper_116, paper_117, paper_123, paper_124, paper_125
+
+selection
+SIR [5] : paper_12, paper_93, paper_95, paper_108, paper_122
+Defects4J [1] : paper_11
+Apache Projects [1] : paper_12
+Industrial / Proprietary [4] : paper_66, paper_79, paper_107, paper_114
+Other Public Repositories [8] : paper_35, paper_37, paper_61, paper_76, paper_89, paper_98, paper_109, paper_110
+

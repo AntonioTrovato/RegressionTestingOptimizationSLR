@@ -1,0 +1,70 @@
+
+=== PRIORITIZATION — METRICS ===
+APFD/NAPFD [74]: paper_2, paper_4, paper_6, paper_8, paper_9, paper_10, paper_11, paper_13, paper_14, paper_16, paper_17, paper_18, paper_19, paper_20, paper_22, paper_25, paper_26, paper_27, paper_28, paper_29, paper_30, paper_31, paper_33, paper_34, paper_36, paper_40, paper_43, paper_47, paper_48, paper_49, paper_50, paper_51, paper_52, paper_53, paper_54, paper_55, paper_59, paper_60, paper_63, paper_64, paper_65, paper_68, paper_70, paper_73, paper_74, paper_75, paper_77, paper_80, paper_82, paper_83, paper_84, paper_88, paper_90, paper_91, paper_96, paper_98, paper_100, paper_101, paper_102, paper_104, paper_105, paper_106, paper_111, paper_112, paper_113, paper_114, paper_115, paper_116, paper_117, paper_119, paper_120, paper_123, paper_124, paper_125
+Code-Coverage [2]: paper_5, paper_104
+Number of Faults Detected / FDR [8]: paper_6, paper_26, paper_47, paper_50, paper_56, paper_72, paper_73, paper_77
+Time-Based / Cost-Aware [9]: paper_11, paper_47, paper_51, paper_53, paper_55, paper_56, paper_62, paper_72, paper_77
+Precision/Recall/F-Measure [4]: paper_8, paper_14, paper_53, paper_55
+Execution Time [13]: paper_11, paper_20, paper_22, paper_28, paper_43, paper_44, paper_49, paper_54, paper_56, paper_58, paper_59, paper_60, paper_63
+Other [11]: paper_21, paper_23, paper_28, paper_31, paper_43, paper_53, paper_54, paper_58, paper_63, paper_99, paper_101
+
+=== PRIORITIZATION — TAXONOMY × METRIC ===
+(clustering, APFD/NAPFD) [2]: paper_43, paper_59
+(clustering, Execution Time) [2]: paper_43, paper_59
+(clustering, Other) [1]: paper_43
+(cost, APFD/NAPFD) [4]: paper_28, paper_48, paper_55, paper_112
+(cost, Code-Coverage) [1]: paper_5
+(cost, Number of Faults Detected / FDR) [1]: paper_56
+(cost, Time-Based / Cost-Aware) [2]: paper_55, paper_56
+(cost, Precision/Recall/F-Measure) [1]: paper_55
+(cost, Execution Time) [2]: paper_28, paper_56
+(cost, Other) [1]: paper_28
+(coverage, APFD/NAPFD) [34]: paper_10, paper_18, paper_25, paper_28, paper_29, paper_33, paper_36, paper_40, paper_47, paper_49, paper_50, paper_51, paper_52, paper_55, paper_60, paper_63, paper_65, paper_68, paper_70, paper_73, paper_75, paper_77, paper_80, paper_82, paper_83, paper_84, paper_91, paper_102, paper_104, paper_105, paper_106, paper_111, paper_124, paper_125
+(coverage, Code-Coverage) [2]: paper_5, paper_104
+(coverage, Number of Faults Detected / FDR) [5]: paper_47, paper_50, paper_72, paper_73, paper_77
+(coverage, Time-Based / Cost-Aware) [6]: paper_47, paper_51, paper_55, paper_62, paper_72, paper_77
+(coverage, Precision/Recall/F-Measure) [1]: paper_55
+(coverage, Execution Time) [6]: paper_28, paper_44, paper_49, paper_58, paper_60, paper_63
+(coverage, Other) [4]: paper_28, paper_58, paper_63, paper_99
+(distribution, APFD/NAPFD) [6]: paper_13, paper_16, paper_18, paper_20, paper_22, paper_54
+(distribution, Execution Time) [3]: paper_20, paper_22, paper_54
+(distribution, Other) [1]: paper_54
+(history, APFD/NAPFD) [15]: paper_6, paper_16, paper_25, paper_26, paper_27, paper_30, paper_31, paper_100, paper_101, paper_112, paper_114, paper_115, paper_116, paper_119, paper_120
+(history, Code-Coverage) [1]: paper_5
+(history, Number of Faults Detected / FDR) [2]: paper_6, paper_26
+(history, Other) [3]: paper_23, paper_31, paper_101
+(human, APFD/NAPFD) [2]: paper_17, paper_54
+(human, Execution Time) [1]: paper_54
+(human, Other) [1]: paper_54
+(model, APFD/NAPFD) [6]: paper_2, paper_9, paper_49, paper_74, paper_96, paper_123
+(model, Execution Time) [1]: paper_49
+(model, Other) [1]: paper_21
+(other, APFD/NAPFD) [5]: paper_88, paper_98, paper_100, paper_101, paper_102
+(other, Other) [1]: paper_101
+(probability, APFD/NAPFD) [8]: paper_8, paper_13, paper_14, paper_34, paper_53, paper_64, paper_113, paper_117
+(probability, Time-Based / Cost-Aware) [1]: paper_53
+(probability, Precision/Recall/F-Measure) [3]: paper_8, paper_14, paper_53
+(probability, Other) [1]: paper_53
+(requirement, APFD/NAPFD) [5]: paper_4, paper_18, paper_19, paper_90, paper_100
+(requirement, Code-Coverage) [1]: paper_5
+
+=== SELECTION — METRICS ===
+Number of Test Cases / Ratio [3]: paper_7, paper_35, paper_76
+Time-Based [4]: paper_11, paper_35, paper_61, paper_95
+Precision/Recall/F-Measure [2]: paper_61, paper_76
+Safety / Fault-Detection Capability [8]: paper_35, paper_61, paper_76, paper_107, paper_108, paper_109, paper_110, paper_114
+Other [3]: paper_79, paper_89, paper_93
+
+=== SELECTION — TAXONOMY × METRIC ===
+(design, Safety / Fault-Detection Capability) [2]: paper_109, paper_110
+(graph, Number of Test Cases / Ratio) [2]: paper_35, paper_76
+(graph, Time-Based) [2]: paper_35, paper_61
+(graph, Precision/Recall/F-Measure) [2]: paper_61, paper_76
+(graph, Safety / Fault-Detection Capability) [3]: paper_35, paper_61, paper_76
+(integer, Time-Based) [1]: paper_95
+(integer, Safety / Fault-Detection Capability) [1]: paper_107
+(integer, Other) [2]: paper_79, paper_89
+(modification, Number of Test Cases / Ratio) [1]: paper_7
+(modification, Time-Based) [1]: paper_11
+(modification, Safety / Fault-Detection Capability) [1]: paper_108
+(modification, Other) [1]: paper_93
