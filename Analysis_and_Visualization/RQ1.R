@@ -82,6 +82,15 @@ df_long$Replicability <- factor(df_long$Replicability,
                                 levels=c("No Replication", "Partial Replication", "Full Replication"),
                                 ordered = TRUE)
 
+df_long$Anno <- factor(df_long$Anno, levels = as.character(2013:2025))
+
+
+df_long <- df_long %>%
+  group_by(Anno) %>%
+  mutate(Percent = Value / sum(Value) * 100)
+
+
+
 
 
 # Stacked barplot (percentage filled)
@@ -100,11 +109,16 @@ ggplot(df_long, aes(x = Anno, y = Value, fill = Replicability, pattern = Replica
     pattern_spacing = 0.02
   ) +
   
+  geom_text(aes(y = Value, label = paste0(round(Percent, 1), "%")),
+            stat = "identity",
+            colour = "white",
+            position = position_fill(vjust = 0.5)) +
+  
   theme_luigi() +
   scale_fill_viridis_d(option = "viridis", begin=0.3, end=1) +
   scale_pattern_manual(values = c("stripe", "crosshatch", "circle")) +
   scale_y_continuous(labels = scales::percent_format(accuracy = 1))+
-  scale_x_continuous(breaks = 2013:2025)+
+  scale_x_discrete(limits = as.character(2013:2025)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust=1), legend.position = "top") +
   labs(x = "Year", y = "Percentage of papers")
 
@@ -150,7 +164,7 @@ ggplot(df_long, aes(x = Anno, y = Value, fill = Replicability, pattern = Replica
   theme_luigi() +
   scale_fill_viridis_d(option = "viridis", begin=0.3, end=1) +
   scale_pattern_manual(values = c("stripe", "crosshatch", "circle")) +
-  scale_x_continuous(breaks = 2013:2025)+
+  scale_x_discrete(limits = as.character(2013:2025)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust=1), legend.position = "top") +
   labs(x = "Year", y = "Number of papers")
 
