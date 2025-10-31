@@ -109,10 +109,24 @@ ggplot(df_long, aes(x = Anno, y = Value, fill = Replicability, pattern = Replica
     pattern_spacing = 0.02
   ) +
   
-  geom_text(aes(y = Value, label = paste0(round(Percent, 1), "%")),
-            stat = "identity",
-            colour = "white",
-            position = position_fill(vjust = 0.5)) +
+  geom_label(
+    data = subset(df_long, Value != 0),  # Exclude zero values
+    aes(y = Value, label = paste0(round(Percent, 1), "%")),
+    position = position_fill(vjust = 0.5),
+    fill = "white",
+    alpha = 0.85,
+    size = 3,
+    colour = NA, label.size = 0
+  ) +
+  
+  geom_text(
+    data = subset(df_long, Value != 0),  # Exclude zero values
+    aes(y = Value, label = paste0(round(Percent, 1), "%")),
+    stat = "identity",
+    position = position_fill(vjust = 0.5),
+    size = 3
+  ) +
+
   
   theme_luigi() +
   scale_fill_viridis_d(option = "viridis", begin=0.3, end=1) +
@@ -122,10 +136,7 @@ ggplot(df_long, aes(x = Anno, y = Value, fill = Replicability, pattern = Replica
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust=1), legend.position = "top") +
   labs(x = "Year", y = "Percentage of papers")
 
-ggsave("RQ1_replicability_percent_over_time.pdf", width=6, height = 4.5)
-
-
-
+ggsave("RQ1_replicability_percent_over_time.pdf", width=8, height = 4.5)
 
 
 # Stacked bar chart (nominal values, not percentage filled)
