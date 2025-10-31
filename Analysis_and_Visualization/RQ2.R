@@ -9,7 +9,7 @@ for(category in c("prioritization", "selection")){
   
   initial_letter <- substring(category, 1, 1)
     
-  data <- read_excel("./data/data.xlsx", sheet=paste0(initial_letter, "_taxonomy_vs_algorithm"))
+  data <- read_excel("./data/data.xlsx", sheet=paste0("RQ2_",initial_letter, "_taxonomy_vs_algorithm"))
   
   data <- data %>%
     rename(`Taxonomy Class` = Taxonomy) 
