@@ -69,6 +69,50 @@ ggsave("RQ1_publications_by_category_over_time.pdf", width=6, height = 4.5)
 
 
 
+##Aggregate, no stack
+
+data_aggregate <- data_filtered %>%
+  select(Anno, Totale_PS)
+
+colnames(data_aggregate) <- c("Year", "Count")
+
+ggplot(data_aggregate, aes(x = Year, y = Count)) +
+  geom_bar(stat = "identity", fill="#002240") +
+  geom_label(
+    data = subset(data_aggregate, Count != 0),  # Exclude zero values
+    aes(y=Count/2, label = Count),
+    position = position_identity(),
+    fill = "white",
+    alpha = 0.85,
+    size = 3,
+    colour = NA, label.size = 0
+  ) +
+  geom_text(
+    data = subset(data_aggregate, Count != 0),  # Exclude zero values
+    aes(y=Count/2, label = Count),
+    # position = position_stack(vjust = 0.5),
+    size = 3
+  ) +
+  
+  theme_luigi() +
+  #scale_fill_viridis_d(option = "viridis", begin=0.3, end=1) +
+  #scale_pattern_manual(values = c("stripe", "crosshatch", "circle")) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust=1), legend.position = "top") +
+  labs(x = "Year", y = "Number of papers")
+
+
+ggsave("RQ1_publications_over_time.pdf", width=6, height = 4.5)
+
+
+
+
+
+
+
+
+
+
+
 
 ## Plot trend of replicability over time
 
