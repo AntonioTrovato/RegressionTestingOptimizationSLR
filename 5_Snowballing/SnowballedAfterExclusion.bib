@@ -1,0 +1,1219 @@
+@article{snowball_101109icst200857,
+title = {An Empirical Study on Bayesian Network-based Approach for Test Case Prioritization},
+abstract = {A cost effective approach to regression testing is to prioritize test cases from a previous version of a software system for the current release. We have previously introduced a new approach for test case prioritization using Bayesian Networks (BN) which integrates different types of information to estimate the probability of each test case finding bugs. In this paper, we enhance our BN-based approach in two ways. First, we introduce a feedback mechanism and a new change information gathering strategy. Second, a comprehensive empirical study is performed to evaluate the performance of the approach and to identify the effects of using different parameters included in the technique. The study is performed on five open source Java objects. The obtained results show relative advantage of using feedback mechanism for some objects in terms of early fault detection. They also provide insight into costs and benefits of the various parameters used in the approach.},
+doi = {10.1109/icst.2008.57},
+year = {2008},
+pages = {278-287},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109compsac2007209,
+title = {Test Case Prioritization for Black Box Testing},
+abstract = {Test case prioritization is an effective and practical technique that helps to increase the rate of regression fault detection when software evolves. Numerous techniques have been reported in the literature on prioritizing test cases for regression testing. However, existing prioritization techniques implicitly assume that source or binary code is available when regression testing is performed, and therefore cannot be implemented when there is no program source or binary code to be analyzed. In this paper, we presented a new technique for black box regression testing, and we performed an experiment to measure our technique. Our results show that the new technique is helpful to improve the effectiveness of fault detection when performing regression test in black box environment.},
+doi = {10.1109/compsac.2007.209},
+year = {2007},
+journal = {Proceedings - International Computer Software & Applications Conference},
+pages = {465-474},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icst201057,
+title = {The Effectiveness of Regression Testing Techniques in Reducing the Occurrence of Residual Defects},
+abstract = {Regression testing is a necessary maintenance activity that can ensure high quality of the modified software system, and a great deal of research on regression testing has been performed. Most of the studies performed to date, however, have evaluated regression testing techniques under the limited context, such as a short-term assessment, which do not fully account for system evolution or industrial circumstances. One important issue associated with a system lifetime view that we have overlooked in past years is the effects of residual defects - defects that persist undetected - across several releases of a system. Depending on an organization's business goals and the type of system being built, residual defects might affect the level of success of the software products. In this paper, we conducted an empirical study to investigate whether regression testing techniques are effective in reducing the occurrence and persistence of residual defects across a system's lifetime, in particular, considering test case prioritization techniques. Our results show that heuristics can be effective in reducing both the occurrence of residual defects and their age. Our results also indicate that residual defects and their age have a strong impact on the cost-benefits of test case prioritization techniques.},
+doi = {10.1109/icst.2010.57},
+year = {2010},
+pages = {79-88},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10114519821851982488,
+title = {A test suite reduction approach based on pairwise interaction of requirements},
+abstract = {Test suite reduction is one of the effective techniques to reduce the cost of regression testing. In particular, it tries to identify and remove redundant test cases according to a specific test coverage criterion. However, the excessive reduction in test cases may also significantly weaken the fault detection ability of the original test suite. In this paper, we conjecture that covering interaction of test requirements can improve the fault detection ability and propose a new test suite reduction approach. As a preliminary study, we firstly propose a pairwise interaction based coverage criterion (PWIC). Then we propose a pairwise interaction of requirements based test suite reduction approach (PWIR). To assess the feasibility and usefulness of our proposed approach, we implement PWIR approach and conduct an empirical study on seven real C programs. After analyzing the results of the empirical studies, we conclude that our approach can improve the fault detection ability without severely increasing the reduced test suite size.},
+doi = {10.1145/1982185.1982488},
+year = {2011},
+pages = {1390-1397},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101145347324348910,
+title = {Prioritizing test cases for regression testing},
+abstract = {Test case prioritization techniques schedule test cases in an order that increases their effectiveness in meeting some performance goal. One performance goal, rate of fault detection, is a measure of how quickly faults are detected within the testing process; an improved rate of fault detection can provide faster feedback on the system under test, and let software engineers begin locating and correcting faults earlier than might otherwise be possible. In previous work, we reported the results of studies that showed that prioritization techniques can significantly improve rate of fault detection. Those studies, however, raised several additional questions: (1) can prioritization techniques be effective when aimed at specific modified versions; (2) what tradeoffs exist between fine granularity and coarse granularity prioritization techniques; (3) can the incorporation of measures of fault proneness into prioritization techniques improve their effectiveness? This paper reports the results of new experiments addressing these questions.},
+doi = {10.1145/347324.348910},
+year = {2000},
+pages = {102-112},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icsm1995526547,
+title = {Reducing the cost of regression testing by semantics guided test case selection},
+abstract = {Software maintainers are faced with the task of regression testing: retesting a modified program on a (large) number of test cases. The cost of regression testing can be reduced if old test cases and old test results can be reused. Reuse avoids the costly construction of new test cases and the unproductive rerunning of existing test cases when it can be guaranteed that the modified and original programs will produce the same results. An algorithm that uses language semantics to provide such a guarantee is presented. This algorithm uses semantic (not syntactic) differences and similarities between the old and new programs. The algorithm is based on the notion of common execution patterns, which is the interprocedural extension of equivalent execution patterns. Program components with common execution patterns are computed using a new type of interprocedural slice called a calling context slice. Whereas an interprocedural slice includes the program components necessary to capture all possible executions of a statement, a calling context slice includes only those program components necessary to capture the execution of a statement in a particular calling context (i.e., a particular call to the procedure).},
+doi = {10.1109/icsm.1995.526547},
+year = {2002},
+pages = {251-260},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101002stvr1572,
+title = {Coverage‐based regression test case selection, minimization and prioritization: a case study on an industrial system},
+abstract = {Summary This paper presents a case study of coverage‐based regression testing techniques on a real world industrial system with real regression faults. The study evaluates four common prioritization techniques, a test selection technique, a test suite minimization technique and a hybrid approach that combines selection and minimization. The study also examines the effects of using various coverage criteria on the effectiveness of the studied approaches. The results show that prioritization techniques that are based on additional coverage with finer grained coverage criteria perform significantly better in fault detection rates. The study also reveals that using modification information in prioritization techniques does not significantly enhance fault detection rates. The results show that test selection does not provide significant savings in execution cost (&lt;2%), which might be attributed to the nature of the changes made to the system. Test suite minimization using finer grained coverage criteria could provide significant savings in execution cost (79.5%) while maintaining a fault detection capability level above 70%, thus representing a possible trade‐off. The hybrid technique did not provide a significant improvement over traditional minimization techniques. Copyright © 2015 John Wiley &amp; Sons, Ltd.},
+doi = {10.1002/stvr.1572},
+year = {2015},
+journal = {Software Testing Verification and Reliability},
+pages = {371-396},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109qsic20074385476,
+title = {Test Case Prioritization Based on Varying Testing Requirement Priorities and Test Case Costs},
+abstract = {Test case prioritization is an effective and practical technique in regression testing. It schedules test cases in order of precedence that increases their ability to meet some performance goals, such as code coverage, rate of fault detection. In previous work, the test case prioritization techniques and metrics usually assumed that testing requirement priorities and test case costs are uniform. In this paper, basing on varying testing requirement priorities and test case costs, we present a new, general test case prioritization technique and an associated metric. The case study illustrates that the rate of "units-oftesting-requirement-priority-satisfied- per-unit-test-case-cost" can be increased, and then the testing quality and customer satisfaction can be improved.},
+doi = {10.1109/qsic.2007.4385476},
+year = {2007},
+pages = {15-24},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109ispa201062,
+title = {Optimal Regression Testing Based on Selective Coverage of Test Requirements},
+abstract = {Test suite reduction can greatly save the test effort during regression testing. For software development with frequent minor updates, a good policy is to managing selective form regression testing, where the total set of test requirements is divided into two subsets: one is the set of concerned test requirements which ought to be covered by selected regression test cases; the other is the set of irrelevant test requirements which should be avoided to save the test case execution and analysis effort, enable missing parts and stubs, or avoid failure protecting codes. We define the multi-objective test suite reduction to model the selective coverage test suite reduction problem, and put forward the HATS algorithm to solve it. Within the HATS, the weighting factor α is defined to balance the two selecting criteria for each test case: maximizing the number of concerned requirements covered, or minimizing the number of irrelevant requirements involved. Experimental results show that compared with the total-coverage test suite reduction techniques, with proper settings of α, the HATS can further decrease the size of the regression test bucket, and cut down the coverage of irrelevant test requirements, while only slightly compromise the fault detection capability against the set of concerned test requirements.},
+doi = {10.1109/ispa.2010.62},
+year = {2010},
+pages = {419-426},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101007s1319801201345,
+title = {New test case prioritization strategies for regression testing of web applications},
+doi = {10.1007/s13198-012-0134-5},
+year = {2012},
+journal = {International Journal of Systems Assurance Engineering and Management},
+pages = {300-309},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_434,
+title = {Analyzing Model Dependencies for Rule-based Regression Test Selection.},
+abstract = {Abstract: Unintended side effects during changes of software demand for a precise test case selection to achieve both confidence and minimal effort for testing. Identi-fying the change related test cases requires an impact analysis across different views, models, and tests. Model-based regression testing aims to provide this analysis earlier in the software development cycle and thus enables an early estimation of test effort. In this paper, we present an approach for model-based regression testing of business processes. Our approach analyzes change types and dependency relations between different models such as Business Process Modeling Notation (BPMN), Unified Mod-eling Language (UML), and UML Testing Profile (UTP) models. We developed a set of impact rules to forecast the impact of those changes on the test models prior to their implementation. We discuss the implementation of our impact rules inside a prototype tool EMFTrace. The approach has been evaluated in a project for business processes on mobile devices. 1},
+year = {2014},
+pages = {305-320},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10114515267091526830,
+title = {Test case prioritization for regression testing of service-oriented business applications},
+abstract = {Regression testing assures the quality of modified service-oriented business applications against unintended changes. However, a typical regression test suite is large in size. Earlier execution of those test cases that may detect failures is attractive. Many existing prioritization techniques order test cases according to their respective coverage of program statements in a previous version of the application. On the other hand, industrial service-oriented business applications are typically written in orchestration languages such as WS-BPEL and integrated with workflow steps and web services via XPath and WSDL. Faults in these artifacts may cause the application to extract wrong data from messages, leading to failures in service compositions. Surprisingly, current regression testing research hardly considers these artifacts. We propose a multilevel coverage model to capture the business process, XPath, and WSDL from the perspective of regression testing. We develop a family of test case prioritization techniques atop the model. Empirical results show that our techniques can achieve significantly higher rates of fault detection than existing techniques.},
+doi = {10.1145/1526709.1526830},
+year = {2009},
+pages = {901-910},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1032604csse2022022621,
+title = {Multi-Objective Modified Particle Swarm Optimization for Test Suite Reduction (MOMPSO)},
+abstract = {Software testing plays a pivotal role in entire software development lifecycle. It provides researchers with extensive opportunities to develop novel methods for the optimized and cost-effective test suite Although implementation of such a cost-effective test suite with regression testing is being under exploration still it contains lot of challenges and flaws while incorporating with any of the new regression testing algorithm due to irrelevant test cases in the test suite which are not required. These kinds of irrelevant test cases might create certain challenges such as code-coverage in the test suite, fault-tolerance, defects due to uncovered-statements and overall-performance at the time of execution. With this objective, the proposed a new Modified Particle Swarm optimization used for multi-objective test suite optimization. The experiment results involving six subject programs show that MOMPSO method can outer perform with respect to both reduction rate (90.78% to 100%) and failure detection rate (44.56% to 55.01%). Results proved MOMPSO outperformed the other stated algorithms.},
+doi = {10.32604/csse.2022.022621},
+year = {2022},
+journal = {Computer Systems Science and Engineering},
+pages = {899-917},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101093jigpaljzaa061,
+title = {Test Case Prioritization—ANT Algorithm With Faults Severity},
+abstract = {Abstract Regression testing is applied whenever a code changes, ensuring that the modifications fixed the fault and no other faults are introduced. Due to a large number of test cases to be run, test case prioritization is one of the strategies that allows to run the test cases with the highest fault rate first. The aim of the paper is to present an optimized test case prioritization method inspired by ant colony optimization, test case prioritization–ANT. The criteria used by the optimization algorithm are the number of faults not covered yet by the selected test cases and the sum of severity of the faults. The cost, i.e. time execution, for test cases is considered in the computation of the pheromone deposited on the graph’s edges. The average percentage of fault detected metric, as best selection criterion, is used to uncover maximum faults with the highest severity, and reducing the regression testing time. Several experiments are considered, detailed and discussed, comparing various algorithm parameter’s alternatives. A benchmark project is also used to validate the proposed approach. The obtained results are encouraging, being a cornerstone for new perspectives to be considered.},
+doi = {10.1093/jigpal/jzaa061},
+year = {2020},
+journal = {Logic Journal of IGPL},
+pages = {277-288},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1022059jitm202180023,
+title = {Regression Test Suite Minimization Using Modified Artificial Ecosystem Optimization Algorithm},
+abstract = {Now a day's software is the baseline for the success of any organization. There is a huge demand of quality software in the customer-oriented market. Regression testing makes it possible but it’s a costly affair. Regression test suite minimization is way to reduce this cost but it is NP hard problem. This paper proposes an effective approach for regression test suite minimization using Artificial Ecosystem Optimization algorithm. To improve its performance a modified Artificial Ecosystem Optimization algorithm is proposed for Test case minimization. To evaluate the performance of proposed approach experiment is conducted in controlled parameter setting on open-source subject program from SIR repository. The results are collected and analyzed in comparison to existing approaches using statistical test. The test results reflect the superiority of proposed approach.},
+doi = {10.22059/jitm.2021.80023},
+year = {2021},
+journal = {DOAJ (DOAJ: Directory of Open Access Journals)},
+pages = {22-41},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10110932988497,
+title = {Test case prioritization: a family of empirical studies},
+abstract = {To reduce the cost of regression testing, software testers may prioritize their test cases so that those which are more important, by some measure, are run earlier in the regression testing process. One potential goal of such prioritization is to increase a test suite's rate of fault detection. Previous work reported results of studies that showed that prioritization techniques can significantly improve rate of fault detection. Those studies, however, raised several additional questions: 1) Can prioritization techniques be effective when targeted at specific modified versions; 2) what trade-offs exist between fine granularity and coarse granularity prioritization techniques; 3) can the incorporation of measures of fault proneness into prioritization techniques improve their effectiveness? To address these questions, we have performed several new studies in which we empirically compared prioritization techniques using both controlled experiments and case studies.},
+doi = {10.1109/32.988497},
+year = {2002},
+journal = {IEEE Transactions on Software Engineering},
+pages = {159-182},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10115520219988987,
+title = {Multiobjective Test Case Prioritization Using Test Case Effectiveness: Multicriteria Scoring Method},
+abstract = {Modified source code validation is done by regression testing. In regression testing, the time and resources are limited, in which we have to select the minimal test cases from test suites to reduce execution time. The test case minimization process deals with the optimization of the regression testing by removing redundant test cases or prioritizing the test cases. This study proposed a test case prioritization approach based on multiobjective particle swarm optimization (MOPSO) by considering minimum execution time, maximum fault detection ability, and maximum code coverage. The MOPSO algorithm is used for the prioritization of test cases with parameters including execution time, fault detection ability, and code coverage. Three datasets are selected to evaluate the proposed MOPSO technique including TreeDataStructure, JodaTime, and Triangle. The proposed MOPSO is compared with the no ordering, reverse ordering, and random ordering technique for evaluating the effectiveness. The higher values of results represent the more effectiveness and the efficiency of the proposed MOPSO as compared to other approaches for TreeDataStructure, JodaTime, and Triangle datasets. The result is presented to 100-index mode relevant from low to high values; after that, test cases are prioritized. The experiment is conducted on three open-source java applications and evaluated using metrics inclusiveness, precision, and size reduction of a matrix of the test suite. The results revealed that all scenarios performed well in acceptable mode, and the technique is 17% to 86% more effective in terms of inclusiveness, 33% to 85% more effective in terms of precision, and 17% minimum to 86% maximum in size reduction of metrics.},
+doi = {10.1155/2021/9988987},
+year = {2021},
+journal = {Scientific Programming},
+pages = {1-13},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1014419ijetv7i428037,
+title = {Automated slicing scheme for test case prioritization in regression testing},
+abstract = {Motivation: The testing approach which ensures that the software does not have any adverse affects due to the changes made in the existing features or addition of some new features is called regression testing. For testing the changes made in the previous versions of software, this type of testing is performed. To ensure that the numbers of test cases available in the software is not too large, it is important to select the regression tests and to do so, several techniques have been designed. To detect the individual functions from the software, the existing work applied the slicing technique. The parameters which are used in this approach are calculated manually to analyze importance of individual functions. The number of times the function is encountered and the number of functions relevant to the specific function are the two different parameters calculated here. A list of changes in the source code and the execution traces generated from the test cases which are run on previous versions are used to combine the modification, minimization and prioritization-based selection which thus generates a hybrid technique.Problem Statement: In the existing system, the manual slicing technique is applied to perform test case prioritization. In manual slicing, the total number of times a function is triggered and the total numbers of functions attached are calculated manually to generate final function importance. This approach is very time consuming and inaccurate.Method: In this paper, we studied that to prioritize the test cases based on the changes, a type of regression testing is used which is test case prioritization. The test cases of the functions which have higher priority are executed first and so on. Based on the changes made, the test cases are prioritized. For identifying maximum number of faults from the modified software, manual slicing and automated slicing are applied in this work. The proposed method will be the enhancement of manual slicing technique. The automated slicing technique will automatically calculate the functional importance based on number of attached functions and number of times function triggered. The proposed method has low execution time and detects more number of defects from the software. The dataset of ten different projects is used to test the performances of proposed and existing algorithms in MATLAB. Each project has seven functions and four numbers of changes are defined for the regression testing.Results: The simulation results achieved at the end show that in comparison to manual methods, the implementation of automated test case prioritization has provided improvement in the fault detection rate and reduction in the execution time.Â Â Â},
+doi = {10.14419/ijet.v7i4.28037},
+year = {2019},
+journal = {International Journal of Engineering & Technology},
+pages = {5266-5271},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_687,
+title = {An evolutionary algorithm for regression test suite reduction},
+abstract = {As the software is modified and new test cases are added to the test-suite, the size of the test-suite grows and the cost of regression testing increases. In order to decrease the cost of regression testing, researchers have focused on the use of test-suite reduction techniques, which identify a subset of test cases that provides the same coverage of the software, according to some criterion, as the original test-suite. This paper investigates the use of an evolutionary approach, called genetic algorithms, for test-suite reduction. The proposed model builds the initial population based on test history, calculates the fitness value using coverage and run time of test case, and then selectively breeds the successive generations using genetic operations and allows only the fit tests to the reduced suite. This generational process is repeated until an optimized test-suite is found.},
+year = {2010},
+journal = {2010 International Conference on Communication and Computational Intelligence (INCOCCI)},
+pages = {503-508},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105162ettc2018124,
+title = {12.4 - Machine Learning-Driven Test Case Prioritization Approaches for Black-Box Software Testing},
+abstract = {Regression testing is the task of retesting a software system after changes have occurred, e.g., after a new version has been developed. Usually, only a subset of test cases is executed for a particular version due to restricted resources. This poses the problem of identifying important test cases for testing. Regression testing techniques such as test case prioritization have been introduced to guide the testing process. Existing techniques usually require source code information. However, system testing of complex applications often restricts access to the source code, i.e., they are a black-box. Here, a large set of test cases is manually executed. In previous work, we proposed a test case prioritization technique for system testing using supervised machine learning. We designed our approach to prioritize manually executed test cases, i.e., it analyzes meta-data and natural language artifacts to compute test case priority values. In this paper, we apply further machine learning algorithms and an ensemble learning approach. In addition, we evaluate our approach on three different data sets in total, which all stem from the automotive industry and, thus, represent real life regression testing data sets. We analyze the results of our approach in terms of its failure finding potential. Our findings indicate that black-box testing can be improved using machine learning techniques.},
+doi = {10.5162/ettc2018/12.4},
+year = {2018},
+pages = {300-309},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1047577techniumv8i8617,
+title = {Constructing a Tool for Software Regression Testing Based on Crow Search Method},
+abstract = {The software testing phase is an essential phase of software development. Its aim is to ensure that the program meets the desired requirements of it. Through the testing process, errors are found in the programs so that they can be fixed before deployment, i.e. before being used or delivered to the customer. The program must also be tested after to be published and delivered, this is called regression testing and it is one of the basic activities in software development and it must be done in the software maintenance phase to ensure its reliability. In this research, a tool was built that selects the optimal test cases that are used in the regression testing phase, using artificial intelligence techniques. The Crow Search Algorithm was used in the test case selection, and after modifications and improvements were made to the algorithm, the Improved Crow algorithm was proposed, which generates and selects test cases that achieve the basic paths of the program based on the improved fitness function, the dynamic awareness probability value of the crow, and the spiral search mechanism for the crows. In addition, the genetic algorithm was used for these test cases prioritization.},
+doi = {10.47577/technium.v8i.8617},
+year = {2023},
+journal = {Technium Romanian Journal of Applied Sciences and Technology},
+pages = {60-71},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105121ijsea20145608,
+title = {Effectiveness of Test Case Prioritization Techniques Based on Regression Testing},
+abstract = {Regression testing concentrates on finding defects after a major code change has occurred. Specifically, it exposes software regressions or old bugs that have reappeared. It is an expensive testing process that has been estimated to account for almost half of the cost of software maintenance. To improve the regression testing process, test case prioritization techniques organizes the execution level of test cases. Further, it gives an improved rate of fault identification, when test suites cannot run to completion.},
+doi = {10.5121/ijsea.2014.5608},
+year = {2014},
+journal = {International Journal of Software Engineering & Applications},
+pages = {113-123},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101007s10270021008996,
+title = {Bridging the model-to-code abstraction gap with fuzzy logic in model-based regression test selection},
+abstract = {Abstract Regression test selection (RTS) approaches reduce the cost of regression testing of evolving software systems. Existing RTS approaches based on UML models use behavioral diagrams or a combination of structural and behavioral diagrams. However, in practice, behavioral diagrams are incomplete or not used. In previous work, we proposed a fuzzy logic based RTS approach called FLiRTS that uses UML sequence and activity diagrams. In this work, we introduce FLiRTS 2, which drops the need for behavioral diagrams and relies on system models that only use UML class diagrams, which are the most widely used UML diagrams in practice. FLiRTS 2 addresses the unavailability of behavioral diagrams by classifying test cases using fuzzy logic after analyzing the information commonly provided in class diagrams. We evaluated FLiRTS 2 on UML class diagrams extracted from 3331 revisions of 13 open-source software systems, and compared the results with those of code-based dynamic (Ekstazi) and static (STARTS) RTS approaches. The average test suite reduction using FLiRTS 2 was 82.06%. The average safety violations of FLiRTS 2 with respect to Ekstazi and STARTS were 18.88% and 16.53%, respectively. FLiRTS 2 selected on average about 82% of the test cases that were selected by Ekstazi and STARTS. The average precision violations of FLiRTS 2 with respect to Ekstazi and STARTS were 13.27% and 9.01%, respectively. The average mutation score of the full test suites was 18.90%; the standard deviation of the reduced test suites from the average deviation of the mutation score for each subject was 1.78% for FLiRTS 2, 1.11% for Ekstazi, and 1.43% for STARTS. Our experiment demonstrated that the performance of FLiRTS 2 is close to the state-of-art tools for code-based RTS but requires less information and performs the selection in less time.},
+doi = {10.1007/s10270-021-00899-6},
+year = {2021},
+journal = {Software & Systems Modeling},
+pages = {207-224},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1017485ijst2017v10i1099661,
+title = {A Survey on Test Case Prioritization Techniques for Regression Testing},
+abstract = {Objective: The main intent of this research is to provide prioritization of test cases in regression testing for various applications. For that, several test case prioritization techniques which are classified based on various parameters are investigated. Methods/Statistical Analysis: In this manuscript, a survey has been made on various test case prioritization techniques for regression testing. Several test case prioritization techniques are presented for regression testing of various applications. One of the suggested technique is Reinforcement Learning (RL) based Hidden Markov Model (HMM) method for prioritizing test cases during regression testing of Graphical User Interface (GUI) applications. Results: This survey comprehensively studies the issues in test case prioritization techniques for regression testing. The performance of different methods is compared with various parameters such as Average Percentage Faults Detected (APFD), effect size, statistical testing. The mean values of APFD for RL-Based HMM model method is 0.68, for accumulated Q-value method is 0.62 and for statement coverage method is 0.61. Findings: The major findings in this survey are that test case prioritization is still at its primitive stages and more research is required to make it applicable in today’s world. It can be applied to all streams of computer engineering if made practically feasible. Currently test case prioritization is only applied where there is no consideration of cost like safety critical software. Many existing methods are surveyed in this work and the findings suggest that model based test case prioritization is best in all aspects. Application/Improvement: Test case prioritization can be applied to all kinds of software once it is cost effective and practically feasible but currently its application is limited to some software components only. Conclusion: This survey investigates several test case prioritization techniques and provides the idea for efficient methods for future work. Keywords: APFD, Effect Size, Prioritization, Regression Testing, Statistical Testing, Test Case},
+doi = {10.17485/ijst/2017/v10i10/99661},
+year = {2017},
+journal = {Indian Journal of Science and Technology},
+pages = {1-6},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1022266ijies2017083107,
+title = {A Cost-Aware Test Suite Minimization Approach Using TAP Measure and Greedy Search Algorithm},
+abstract = {Software testing is required to detect the faults and to ensure the quality of the software under development. Usually, test suites are used to evaluate the software system during the software development cycle. But often test suites contain more redundant test cases due to overlapped test objectives. So, the test-suite reduction is an important step to reduce the number of test cases so as to satisfy the entire objectives with less computational cost. Literature presents different methods to select the suitable test suites of optimal subsets for regression testing. Accordingly, this research aims to develop an effective test suite reduction approach for regression testing. The proposed algorithm (GTAP) is newly designed using TAP measure and greedy search algorithm. This algorithm uses TAP-measure which is specially developed for measuring the importance of test cases. The performance of the GTAP algorithm is evaluated using four different evaluation metrics with eleven subject programs available in SIR repository. From the experimentation, the average performance of the proposed GTAP algorithm in all the programs is 93.07% which is higher than the DIV-GA which obtained the value of 90.27%.},
+doi = {10.22266/ijies2017.0831.07},
+year = {2017},
+journal = {International journal of intelligent engineering and systems},
+pages = {60-69},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1145,
+title = {A Genetic Algorithm for Fault based Regression Test Case Prioritization},
+abstract = {Regression testing is the process of validating modified software to detect errors that have been introduced into previously tested code. As the software is modified, the size of the test suite grows and the cost of regression testing increases. In this situation, test case prioritization aims to improve the effectiveness of regression testing by ordering the test cases so that most beneficial test cases are executed first. In this research paper, a new genetic algorithm is introduced that will prioritize regression test suite within a time constrained environment on the basis of total fault coverage. The proposed algorithm has been automated and the results are analysed. The results representing the effectiveness of algorithm are presented with the help of Average Percentage of Faults Detected (APFD).},
+year = {2011},
+pages = {30-37},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105121csit201441005,
+title = {Measuring the Effectiveness of Test Case Prioritization Techniques Based on Weight Factors},
+abstract = {Test case prioritization schedule test cases in an order that increases the success in achieving some performance target. The most important target is ,at what rate the fault is detected. Test cases should run in an order that increases the opportunity of fault exposure and as well detecting the most rigorous faults, most primitively in its testing life cycle. Test case prioritization techniques have proved to be advantageous for improving regression testing activities. whereas code coverage based prioritization are being studied by most scholars, hitherto test case prioritization techniques based on requirements in cost effective manner has not been analyzed. Here we suggest to put forth a model for system level test case prioritization from software requirement specification and to develop user fulfillment with quality software that can also be cost effective.Thus improving the rate of severe fault detection. The projected model priorities the system test cases, based on six factors. They are customer allotted priority, developer observed code implementation complexity, changes in requirements, fault impact of requirements, completeness and Traceability. The anticipated prioritization techniques is experimented with two set of industrial projects. The results realistically show that proposed prioritization techniques improves the rate of fault detection .},
+doi = {10.5121/csit.2014.41005},
+year = {2014},
+pages = {41-51},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109qsic201063,
+title = {Point-of-Interest Aware Test Case Prioritization: Methods and Experiments},
+abstract = {Location based services personalize their behaviors based on location data. When data kept by a service have evolved or the code has been modified, regression testing can be employed to assure the quality of services. Frequent data update however may lead to frequent regression testing and any faulty implementation of a service may affect many service consumers. Proper test case prioritization helps reveal service problems efficiently. In this paper, we review a set of point-of-interest (POI) aware test case prioritization techniques and report an experiment on such techniques. The empirical results show that these POI-aware techniques are more effective than random ordering and input-guided test case prioritization in terms of APFD. Furthermore, their effectiveness is observed to be quite stable over different sizes of the test suite.},
+doi = {10.1109/qsic.2010.63},
+year = {2010},
+pages = {449-456},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1021608ijicis20232439911303,
+title = {ENHANCED REGRESSION TESTING EXECUTION PROCESS USING TEST SUITE REDUCTION TECHNIQUES AND PARALLEL EXECUTION},
+abstract = {Regression testing is a vital category of software testing. Regression testing is done to make sure that changed code does not have any unexpected negative effects on the software. Regression testing, despite its significance in ensuring software quality, can be a costly phase in the software testing process. Typically, the more tests there are, the longer it takes for them to run. As a result, the price of regression testing rises with the quantity of tests. So, the objective is to reduce execution time of the regression testing by removing test cases that are redundant or have lower importance in terms of their capacity to uncover faults. The primary aim of test case reduction is to decrease the number of test cases, which, in turn, lowers the time and expenses associated with their execution. This paper presents an approach to minimize the execution time of regression testing while preserving code coverage, achieved through the utilization of test suite reduction techniques and parallel automation execution. The employed test suite reduction approach involves utilizing a clustering technique and a genetic algorithm. The resulting reduced test suite is then executed in parallel to achieve the shortest possible execution time. The results demonstrate that the proposed approach can cut down execution time by 75%.},
+doi = {10.21608/ijicis.2023.243991.1303},
+year = {2023},
+journal = {International journal of intelligent computing and information sciences/International Journal of Intelligent Computing and Information Sciences},
+pages = {33-49},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icse2001919106,
+title = {Incorporating varying test costs and fault severities into test case prioritization},
+abstract = {Test case prioritization techniques schedule test cases for regression testing in an order that increases their ability to meet some performance goal. One performance goal, rate of fault detection, measures how quickly faults are detected within the testing process. In previous work (S. Elbaum et al., 2000; G. Rothermel et al., 1999), we provided a metric, APFD, for measuring rate of fault detection, and techniques for prioritizing test cases to improve APFD, and reported the results of experiments using those techniques. This metric and these techniques, however, applied only in cases in which test costs and fault severity are uniform. We present a new metric for assessing the rate of fault detection of prioritized test cases that incorporates varying test case and fault costs. We present the results of a case study illustrating the application of the metric. This study raises several practical questions that might arise in applying test case prioritization; we discuss how practitioners could go about answering these questions.},
+doi = {10.1109/icse.2001.919106},
+year = {2005},
+journal = {Proceedings of the 23rd International Conference on Software Engineering. ICSE 2001},
+pages = {329-338},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109isese20051541815,
+title = {System test case prioritization of new and regression test cases},
+abstract = {Test case prioritization techniques have been shown to be beneficial for improving regression-testing activities. With prioritization, the rate of fault detection is improved, thus allowing testers to detect faults earlier in the system-testing phase. Most of the prioritization techniques to date have been code coverage-based. These techniques may treat all faults equally. We build upon prior test case prioritization research with two main goals: (1) to improve user-perceived software quality in a cost effective way by considering potential defect severity and (2) to improve the rate of detection of severe faults during system-level testing of new code and regression testing of existing code. We present a value-driven approach to system-level test case prioritization called the prioritization of requirements for test (PORT). PORT prioritizes system test cases based upon four factors: requirements volatility, customer priority, implementation complexity, and fault proneness of the requirements. We conducted a PORT case study on four projects developed by students in advanced graduate software testing class. Our results show that PORT prioritization at the system level improves the rate of detection of severe faults. Additionally, customer priority was shown to be one of the most important prioritization factors contributing to the improved rate of fault detection.},
+doi = {10.1109/isese.2005.1541815},
+year = {2005},
+pages = {62-71},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109tse2011106,
+title = {A Static Approach to Prioritizing JUnit Test Cases},
+abstract = {Test case prioritization is used in regression testing to schedule the execution order of test cases so as to expose faults earlier in testing. Over the past few years, many test case prioritization techniques have been proposed in the literature. Most of these techniques require data on dynamic execution in the form of code coverage information for test cases. However, the collection of dynamic code coverage information on test cases has several associated drawbacks including cost increases and reduction in prioritization precision. In this paper, we propose an approach to prioritizing test cases in the absence of coverage information that operates on Java programs tested under the JUnit framework-an increasingly popular class of systems. Our approach, JUnit test case Prioritization Techniques operating in the Absence of coverage information (JUPTA), analyzes the static call graphs of JUnit test cases and the program under test to estimate the ability of each test case to achieve code coverage, and then schedules the order of these test cases based on those estimates. To evaluate the effectiveness of JUPTA, we conducted an empirical study on 19 versions of four Java programs ranging from 2K-80K lines of code, and compared several variants of JUPTA with three control techniques, and several other existing dynamic coverage-based test case prioritization techniques, assessing the abilities of the techniques to increase the rate of fault detection of test suites. Our results show that the test suites constructed by JUPTA are more effective than those in random and untreated test orders in terms of fault-detection effectiveness. Although the test suites constructed by dynamic coverage-based techniques retain fault-detection effectiveness advantages, the fault-detection effectiveness of the test suites constructed by JUPTA is close to that of the test suites constructed by those techniques, and the fault-detection effectiveness of the test suites constructed by some of JUPTA's variants is better than that of the test suites constructed by several of those techniques.},
+doi = {10.1109/tse.2011.106},
+year = {2012},
+journal = {IEEE Transactions on Software Engineering},
+pages = {1258-1275},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1014257ijdta20169402,
+title = {A Hybrid Approach of Clustering and Time-Aware Based Novel Test Case Prioritization Technique},
+abstract = {Regression testing is an activity during the maintenance phase to validate the changes made to the software and to ensure that these changes would not affect the previously verified code or functionality. Often, regression testing is performed with limited computing resources and time budget. So, fully comprehensive testing is not possible at this stage. Test-case prioritization techniques are applied to ensure the execution of test cases in some prioritized order and to achieve some specific goals in minimum possible time like, increasing the rate of fault detection, detecting the most critical faults as early as possible etc. The main objective of this paper is to achieve higher value of average percentage of faults detected, execute the higher priority test cases before lower priority test cases and also we target to decrease the execution time for achieving the maximum value of average percentage of faults detected. We proposed a new prioritization technique that uses a clustering approach and also considers various factors like, execution time of every test case, code coverage metric, fault detection ratio, test case failure rate and code complexity metric to reorder the execution of test cases. The results of this research work will show the importance of clustering technique and various factors taken into consideration, for achieving effective prioritization of test cases. The results of implementation will subsequently show that the proposed approach is more effective than the existing coverage and clustering based prioritization techniques. From the experimental results, we found that our proposed approach achieved higher value of average percentage of faults detected than other clustering based and coverage based techniques. Also, this approach reduces the execution time taken by the prioritized test cases.},
+doi = {10.14257/ijdta.2016.9.4.02},
+year = {2016},
+journal = {International Journal of Database Theory and Application},
+pages = {23-44},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1017485ijstv16i142109,
+title = {Empirical Evaluation of Tetrad Optimization Methods for Test Case Selection and Prioritization},
+abstract = {Objectives: Software researchers have been taking advantage of various evolutionary optimization approaches by digitizing them. Test case selection and prioritization based on fault coverage criteria within a time-constrained environment is important in regression testing problem. Methods: This work empirically evaluates different approaches that includes evolutionary approaches (Ant Colony Optimization, Bee Colony Optimization, a combination of Genetic Algorithms and Bee Colony optimization), and a Greedy approach. These tetrad techniques have been successfully applied to regression testing. Also, tools have been developed for their implementation. Eight open-source test programs, written in C language have been used for empirical evaluation of the regression testing approaches. Findings: The accuracy achieved by t-GSC, being a greedy technique, was found to be least; while that of ACO was found to be the best. All the tetrad approaches yielded borderline better or worse results, while all the four gave excellent time and size gains. Novelty: There are many studies available in the literature that compare various regression testing approaches of a similar kind. Instead of repeating the same, it is intended to evaluate two well-accepted approximation approaches: a hybrid approach, and a greedy approach. It has been tried to evaluate the efficiency of the greedy approach with the metaheuristic approach. It is imperative to compare approaches following different algorithmic paradigms, yet trying to solve the same problem. Keywords: Ant Colony Optimization; Bee Colony Optimization; Genetic Algorithms; Greedy Set Cover; Software Testing; empirical comparison},
+doi = {10.17485/ijst/v16i14.2109},
+year = {2023},
+journal = {Indian Journal of Science and Technology},
+pages = {1038-1044},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1052200007842502260237,
+title = {Test Suite Minimization of Evolving Software Systems: A Case Study},
+abstract = {Test suite minimization ensures that an optimum set of test cases are selected to provide maximum coverage of requirements. In this paper, we discuss and evaluate techniques for test suite minimization of evolving software systems. As a case study, we have used an industrial tool, Static Code Analysis (SCAN) tool for Electronic Device Description Language (EDDL) as the System Under Test (SUT). We have used standard approaches including Greedy, Greedy Essential (GE) and Greedy Redundant Essential (GRE) for minimization of the test suite for a given set of requirements of the SUT. Further, we have proposed and implemented k-coverage variants of these approaches. The minimized test suite which is obtained as a result reduces testing effort and time during regression testing. The paper also addresses the need for choosing an appropriate level of granularity of requirements to efficiently cover all requirements. The paper demonstrates how fine grained requirements help in finding an optimal test suite to completely address the requirements and also help in detecting bugs in each version of the software. Finally, the results from different analyses have been presented and compared and it has been observed that GE heuristics performs the best (run time) under certain conditions. Copyright © 2019 by SCITEPRESS - Science and Technology Publications, Lda. All rights reserved.},
+doi = {10.5220/0007842502260237},
+year = {2019},
+pages = {226-237},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1022214ijraset20184671,
+title = {A Systematic Analysis and Exploration of the Regression Testing Techniques},
+abstract = {Software system undergoes various evolutions from its initial development to practical use. There are various kinds of corrections, modifications and additions at each module in the software. Sometimes, software is shifted from one platform to another platform which can adversely affect the software system. To ensure the system from bugs, faults & errors, the system undergoes the regression testing. Regression testing ensures the quality of the software with testing all the required phases. It is easy to perform regression testing to ensure the proper working of software in case small software or software having limited programming code lines but it becomes difficult after the addition of phases and new modules to software. It also becomes costlier to perform regression testing for the large projects having large number of test cases. To resolve this problem, there are various techniques of regression testing like test suite minimization, prioritization of test cases and test case selection. Researchers are working on these techniques to handle large projects by using different methods on mentioned regression testing techniques. In this paper, we have explored the regression testing techniques and analyzed new methods and trends in the field of regression testing. The presented analysis indicates the continuous growth of the concept in wider research applications.},
+doi = {10.22214/ijraset.2018.4671},
+year = {2018},
+journal = {International Journal for Research in Applied Science and Engineering Technology},
+pages = {4066-4074},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109cit2008workshops104,
+title = {Applying Particle Swarm Optimization to Prioritizing Test Cases for Embedded Real Time Software Retesting},
+abstract = {In recent years, complex embedded systems are used in every device that is infiltrating our daily lives. Since most of the embedded systems are multi-tasking real time systems, the task interleaving issues, dead lines and other factors needs software units retesting to follow the subsequence changes. Regression testing is used for the software maintenance that revalidates the old functionality of the software unit. Testing is one of the most complex and time-consuming activities, in which running of all combination of test cases in test suite may require a large amount of efforts. Test case prioritization techniques can take advantage that orders test cases, which attempts to increase effectiveness in regression testing. This paper proposes to use particle swarm optimization (PSO) algorithm to prioritize the test cases automatically based on the modified software units. Regarding to the recent investigations, PSO is a multi-object optimization technique that can find out the best positions of the objects. The goal is to prioritize the test cases to the new best order, based on modified software components, so that test cases, which have new higher priority, can be selected in the regression testing process. The empirical results show that by using the PSO algorithm, the test cases can be prioritized in the test suites with their new best positions effectively and efficiently.},
+doi = {10.1109/cit.2008.workshops.104},
+year = {2008},
+pages = {527-532},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101007s41870024018680,
+title = {Test case prioritization based on fault sensitivity analysis using ranked NSGA-2},
+abstract = {Abstract This paper discusses regression testing in software maintenance, focusing on test case prioritization to verify modifications to software functionality efficiently. The primary goal is to rank test cases, prioritizing those covering more code or faults with minimal execution time. The challenge lies in prioritizing numerous test cases generated during development and maintenance. Various algorithms, including greedy approaches and meta-heuristic techniques, address this challenge. The paper introduces a ranking-based non-dominated sorting genetic algorithm (NSGA-2) for test case prioritization, emphasizing cases sensitive to faults caused by modifications or new functionality. Historical data is prioritized, with key objectives including the sensitive index, execution cost, and average percentage of fault detection (APFD). The proposed model is tested on handcrafted and benchmark Java-based applications, comparing its performance to state-of-the-art algorithms in test case prioritization.},
+doi = {10.1007/s41870-024-01868-0},
+year = {2024},
+journal = {International Journal of Information Technology},
+pages = {2875-2881},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101002qre2984,
+title = {Analysis and assessment of weighted combinatorial criterion for test suite reduction},
+abstract = {Abstract Software plays an important role in modern society. New software features have to be completed and tested rapidly due to business and user needs and goals. To ensure the quality of modified software components, new test cases must be generated and included in the current test pool. Furthermore, test pool size often grows too large to test all cases. A considerably large test pool typically consumes an exorbitant quantity of time, leading to inefficient regression testing. Test suite reduction is often used to solve this problem by removing redundant test cases. Thus, time and resource constraints make it necessary to minimize the test suite. That is, test pool size should be efficiently reduced, while the remaining test cases should be adequate to provide the same coverage as the pool. The main purpose of this paper is to propose four weighted combinatorial algorithms and a three‐objective binary integer linear programming (ILP) model to improve fault detection effectiveness. We first consider both the control flow and data flow as our testing criteria and combine them by using a weighted means with four existing test suite reduction algorithms. A genetic algorithm is used to find the best combination of weighting factors to assign to the two testing criteria. Experiments based on real subject programs are presented. Experimental results demonstrate that 77.5% of our proposed weighted combinatorial algorithms have an even or better performance in suite size reduction, 83.75% of our approaches perform even or better in fault detection effectiveness, and 82.5% of our approaches have even or better effectiveness in fault‐to‐test ratio. For the three‐objective binary ILP model, test suite size is significantly reduced without any accompanying loss in fault detection ability.},
+doi = {10.1002/qre.2984},
+year = {2021},
+journal = {Quality and Reliability Engineering International},
+pages = {358-388},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109iccta20126523563,
+title = {Software testing suite prioritization using multi-criteria fitness function},
+abstract = {Regression testing is the process of validating modifications introduced in a system during software maintenance. It is an expensive, yet an important process. As the test suite size is very large, system retesting consumes large amount of time and computing resources. Unfortunately, there may be insufficient resources to allow for the re-execution of all test cases during regression testing. Testcase prioritization techniques aim to improve the effectiveness of regression testing, by ordering the testcases so that the most beneficial are executed first with higher priority. The objective of test case prioritization is to detect faults as early as possible. An approach for automating the test case prioritization process using genetic algorithm with Multi-Criteria Fitness function is presented. It uses multiple control flow coverage metrics. These metrics measure the degree of coverage of conditions, multiple conditions and statements that the test case covers. Theses metrics are weighted by the number of faults revealed and their severity. The proposed Multi-criteria technique showed superior results compared to similar work.},
+doi = {10.1109/iccta.2012.6523563},
+year = {2012},
+pages = {160-166},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1047065joshv4i22822,
+title = {Analisis Efektifitas Algoritma FAST Menggunakan Metrik Average Percentage Fault Detection dan Waktu Eksekusi Pada Test Case Prioritization},
+abstract = {It uses regression testing to validate the modification results so as not to cause new errors in features that are already functioning correctly. The implementation of regression testing is generally done by re-executing the test suite used in the previous test. One of the crucial issues in regression testing is determining a strategic approach to reuse existing test suites. Testing with retesting all test cases will result in a long and expensive test. Thus, it is necessary to use a test case selection approach. The research study focuses on analyzing the effectiveness of the FAST algorithm, namely the FAST-pw and FAST-all algorithms, for executing test cases based on priority. The research method uses experiments through running algorithms on test cases that have been implanted with faults in the software with a test case size of 10,000 to 20,000 lines of the program. The effectiveness parameter uses the test case execution time and the percentage of fault detection using the average percentage fault detection (APFD) metric. The results showed that the FAST algorithm, namely the FAST-pw and FAST-all algorithms, had good effectiveness values ​​when applied to TCP testing with small to medium-sized SUTs, namely test cases that tested 1,000 – 20,000 program lines.},
+doi = {10.47065/josh.v4i2.2822},
+year = {2023},
+journal = {Journal of Information System Research (JOSH)},
+pages = {451-457},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10115520199083956,
+title = {Location-Based Test Case Prioritization for Software Embedded in Mobile Devices Using the Law of Gravitation},
+abstract = {Considering that some intelligent software in mobile devices is related to location of sensors and devices, regression testing for it faces a major challenge. Test case prioritization (TCP), as a kind of regression test optimization technique, is beneficial to improve test efficiency. However, traditional TCP techniques may have limitations on testing intelligent software embedded in mobile devices because they do not take into account characteristics of mobile devices. This paper uses a smart mall as a scenario to design a novel location-based TCP technique for software embedded in mobile devices using the law of gravitation. First, test gravitation is proposed by applying the idea of universal gravitation. Second, a specific calculation model of test gravitation is designed for a smart mall scenario. Third, how to create a faulted test case set is designed by the pseudocode. Fourth, a location-based TCP using the law of gravitation algorithm is proposed, which utilizes test case information, fault information, and location information to prioritize test cases. Finally, an empirical evaluation is presented by using one industrial project. The observation, underlying the experimental results, is that our proposed TCP approach performs better than traditional TCP techniques. In addition, besides location information, the level of devices is also an important factor which affects the prioritization efficiency.},
+doi = {10.1155/2019/9083956},
+year = {2019},
+journal = {Mobile Information Systems},
+pages = {1-14},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_103233jifs222433,
+title = {Test case prioritization for changed code using nature inspired optimizer},
+abstract = {The software development and maintenance phase succeeded with significant regression testing activity. The software must be re-tested every time it upgrades to preserve its quality. Software testing as a whole is an expensive and tedious task due to resource constraints. Using the prioritization technique implies regression testing to re-test software after it has been modified. In this situation, the prioritization technique can use information acquired about earlier test case executions to generate test case orderings. The approaches for test case prioritization arrange them all in such a sequence that maximizes their efficacy in accomplishing specific goals. This paper presents a hybrid technique for change-testing or regression testing through test case prioritization. The suggested method first generates the test cases, then clustered in untested and unimportant groups using kernel-based fuzzy c-means clustering technique. The appropriate test cases are then considered for prioritization using the grey wolf optimizer. The results compared with the approaches such as ant colony, particle swarm, and genetic algorithm optimization method, and it is observed that the proposed approach efficiency increased by 91% of fault detection rate.},
+doi = {10.3233/jifs-222433},
+year = {2022},
+journal = {Journal of Intelligent & Fuzzy Systems},
+pages = {5711-5718},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101002spe1065,
+title = {Prioritizing tests for software fault diagnosis},
+abstract = {SUMMARY During regression testing, test prioritization techniques select test cases that maximize the confidence on the correctness of the system when the resources for quality assurance (QA) are limited. In the event of a test failing, the fault at the root of the failure has to be localized, adding an extra debugging cost that has to be taken into account as well. However, test suites that are prioritized for failure detection can reduce the amount of useful information for fault localization. This deteriorates the quality of the diagnosis provided, making the subsequent debugging phase more expensive, and defeating the purpose of the test cost minimization. In this paper we introduce a new test case prioritization approach that maximizes the improvement of the diagnostic information per test. Our approach minimizes the loss of diagnostic quality in the prioritized test suite. When considering QA cost as a combination of testing cost and debugging cost, on our benchmark set, the results of our test case prioritization approach show reductions of up to 60% of the overall combined cost of testing and debugging, compared with the next best technique. Copyright © 2011 John Wiley &amp; Sons, Ltd.},
+doi = {10.1002/spe.1065},
+year = {2011},
+journal = {Software Practice and Experience},
+pages = {1105-1129},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1829,
+title = {An application of Adaptive Random Sequence in test case prioritization},
+abstract = {Test case prioritization aims to schedule test cases in a certain order such that the effectiveness of regression testing can be improved. Prioritization using random sequence is a basic and simple technique, and normally acts as a benchmark to evaluate other prioritization techniques. Adaptive Random Sequence (ARS) makes use of extra information to improve the diversity of random sequence. Some researchers have proposed prioritization techniques using ARS with white-box code coverage information that is normally related to the test execution history of previous versions. In this paper, we propose several ARS-based prioritization techniques using black-box information. The proposed techniques schedule test cases based on the string distances of the input data, without referring to the execution history. Our experimental studies show that these new techniques \ndeliver higher fault-detection effectiveness than random prioritization. In addition, as compared with an existing black-box prioritization technique, the new techniques have similar fault-detection effectiveness but much lower computation overhead, and thus are more cost-effective.},
+year = {2014},
+journal = {Swinburne Research Bank (Swinburne University of Technology)},
+pages = {126-131},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10114510270921027093,
+title = {On test suite composition and cost-effective regression testing},
+abstract = {Regression testing is an expensive testing process used to revalidate software as it evolves. Various methodologies for improving regression testing processes have been explored, but the cost-effectiveness of these methodologies has been shown to vary with characteristics of regression test suites. One such characteristic involves the way in which test inputs are composed into test cases within a test suite. This article reports the results of controlled experiments examining the effects of two factors in test suite composition---test suite granularity and test input grouping---on the costs and benefits of several regression-testing-related methodologies: retest-all, regression test selection, test suite reduction, and test case prioritization. These experiments consider the application of several specific techniques, from each of these methodologies, across ten releases each of two substantial software systems, using seven levels of test suite granularity and two types of test input grouping. The effects of granularity, technique, and grouping on the cost and fault-detection effectiveness of regression testing under the given methodologies are analyzed. This analysis shows that test suite granularity significantly affects several cost-benefit factors for the methodologies considered, while test input grouping has limited effects. Further, the results expose essential tradeoffs affecting the relationship between test suite design and regression testing cost-effectiveness, with several implications for practice.},
+doi = {10.1145/1027092.1027093},
+year = {2004},
+journal = {ACM Transactions on Software Engineering and Methodology},
+pages = {277-331},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1032604iasc2022019669,
+title = {Multi-Objective Adapted Binary Bat for Test Suite Reduction},
+abstract = {Regression testing is an essential quality test technique during the maintenance phase of the software. It is executed to ensure the validity of the software after any modification. As software evolves, the test suite expands and may become too large to be executed entirely within a limited testing budget and/or time. So, to reduce the cost of regression testing, it is mandatory to reduce the size of the test suite by discarding the redundant test cases and selecting the most representative ones that do not compromise the effectiveness of the test suite in terms of some predefined criteria such as its fault-detection capability. This problem is known as test suite reduction (TSR); and it is known to be as nondeterministic polynomial-time complete (NP-complete) problem. This paper formulated the TSR problem as a multi-objective optimization problem; and adapted the heuristic binary bat algorithm (BBA) to resolve it. The BBA algorithm was adapted in order to enhance its exploration capabilities during the search for Pareto-optimal solutions. The effectiveness of the proposed multi-objective adapted binary bat algorithm (MO-ABBA) was evaluated using 8 test suites of different sizes, in addition to twelve benchmark functions. Experimental results showed that, for the same fault discovery rate, the MO-ABBA is capable of reducing the test suite size more than each of the multi-objective original binary bat (MO-BBA) and the multi-objective binary particle swarm optimization (MO-BPSO) algorithms. Moreover, MO-ABBA converges to the best solutions faster than each of the MO-BBA and the MO-BPSO.},
+doi = {10.32604/iasc.2022.019669},
+year = {2021},
+journal = {Intelligent Automation & Soft Computing},
+pages = {781-797},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101049ietsen20170130,
+title = {DIV‐TBAT algorithm for test suite reduction in software testing},
+abstract = {Researchers have investigated different approaches to maintain the minimum cost and effort in regression testing. Here, test suite reduction is a common technique to decrease the cost of regression testing by removing the redundant test cases from the test suite and then, obtaining a representative set of test cases that still yield a high level of code coverage. Accordingly, here, the authors have developed two various techniques for test suite reduction. In the first technique, ATAP measure is newly developed to find the reduced test suite with the help of greedy search algorithm. In the second technique, DIV‐TBAT (DIVersity‐based BAT) algorithm is newly devised based on the mechanisms of Boolean logic within BAT algorithm which improve diversity during the search process. The proposed techniques are experimented using eight programs from SIR subject programs and the performance study is conducted using nine different evaluation metrics based on different research questions. The comparative analysis is performed with the existing algorithms like GreedyRatio, GreedyEIrreplaceability, diversity‐based genetic algorithm, TBAT, and TAP, to prove the performance improvement over the eight software programs considered.},
+doi = {10.1049/iet-sen.2017.0130},
+year = {2018},
+journal = {IET Software},
+pages = {271-279},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101142s0218194020500138,
+title = {Regression Test Case Prioritization Based on Fixed Size Candidate Set ART Algorithm},
+abstract = {Regression testing is a very time-consuming and expensive testing activity. Many test case prioritization techniques have been proposed to speed up regression testing. Previous studies show that no one technique is always best. Random strategy, as the simplest strategy, is not always so bad. Particularly, when a test suite has higher fault detection capability, the strategy can generate a better result. Nevertheless, due to the randomness, the strategy is not always as satisfactory as expected. In this context, we present a test case prioritization approach using fixed size candidate set adaptive random testing algorithm to reduce the effect of randomness and improve fault detection effectiveness. The distance between pair-wise test cases is assessed by exclusive OR. We designed and conducted empirical studies on eight C programs to validate the effectiveness of the proposed approach. The experimental results, confirmed by a statistical analysis, indicate that the approach we proposed is more effective than random and the total greedy prioritization techniques in terms of fault detection effectiveness. Although the presented approach has comparable fault detection effectiveness to ART-based and the additional greedy techniques, the time cost is much lower. Consequently, the proposed approach is much more cost-effective.},
+doi = {10.1142/s0218194020500138},
+year = {2020},
+journal = {International Journal of Software Engineering and Knowledge Engineering},
+pages = {291-320},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_103906elk1209109,
+title = {Model-based test case prioritization using cluster analysis: a soft-computing approach},
+abstract = {Model-based testing is related to the particular relevant features of the software under test (SUT) and its environment. Real-life systems often require a large number of tests, which cannot exhaustively be run due to time and cost constraints. Thus, it is necessary to prioritize the test cases in accordance with their importance as the tester perceives it, usually given by several attributes of relevant events entailed. Based on event-oriented graph models, this paper proposes an approach to ranking test cases in accordance with their preference degrees. For forming preference groups, events are clustered using an unsupervised neural network and fuzzy c-means clustering algorithm. The suggested approach is model-based, so it does not necessitate the availability of the source code of the SUT. It differs from existing approaches also in that it needs no prior information about the tests carried out before. Thus, it can be used to reflect the tester&amp;amp;apos;s preferences not only for regression testing as is common in the literature but also for ranking test cases in any stage of software development. For the purpose of experimental evaluation, we compare the suggested prioritization approach with six well-known prioritization methods.},
+doi = {10.3906/elk-1209-109},
+year = {2015},
+journal = {TURKISH JOURNAL OF ELECTRICAL ENGINEERING & COMPUTER SCIENCES},
+pages = {623-640},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109tse201058,
+title = {The Effects of Time Constraints on Test Case Prioritization: A Series of Controlled Experiments},
+abstract = {Regression testing is an expensive process used to validate modified software. Test case prioritization techniques improve the cost-effectiveness of regression testing by ordering test cases such that those that are more important are run earlier in the testing process. Many prioritization techniques have been proposed and evidence shows that they can be beneficial. It has been suggested, however, that the time constraints that can be imposed on regression testing by various software development processes can strongly affect the behavior of prioritization techniques. If this is correct, a better understanding of the effects of time constraints could lead to improved prioritization techniques and improved maintenance and testing processes. We therefore conducted a series of experiments to assess the effects of time constraints on the costs and benefits of prioritization techniques. Our first experiment manipulates time constraint levels and shows that time constraints do play a significant role in determining both the cost-effectiveness of prioritization and the relative cost-benefit trade-offs among techniques. Our second experiment replicates the first experiment, controlling for several threats to validity including numbers of faults present, and shows that the results generalize to this wider context. Our third experiment manipulates the number of faults present in programs to examine the effects of faultiness levels on prioritization and shows that faultiness level affects the relative cost-effectiveness of prioritization techniques. Taken together, these results have several implications for test engineers wishing to cost-effectively regression test their software systems. These include suggestions about when and when not to prioritize, what techniques to employ, and how differences in testing processes may relate to prioritization cost--effectiveness.},
+doi = {10.1109/tse.2010.58},
+year = {2010},
+journal = {IEEE Transactions on Software Engineering},
+pages = {593-617},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109cmpsac20021045111,
+title = {Class specification implementation graphs and their application in regression testing},
+abstract = {Most techniques proposed for regression testing are either black- or white-box techniques, i.e. they solely consider either the specification or implementation of a program. However a combined technique can lead to significant savings in testing costs as some testing tasks need to be carried out once. Furthermore, the same test cases can cover both specification and implementation, reducing the total number of test cases. This paper shows the application of class specification implementation graphs (CSIGs) in regression testing. The distinguishing feature of CSIGs front existing representations is that each method of a class is shown from two perspectives, namely the specification and implementation view. Moreover a test suite reduction strategy has been incorporated to the CSIG construction algorithm to decrease the total number of test cases required. In this paper we show how CSIGs can be combined with an existing test case selection algorithm for regression testing.},
+doi = {10.1109/cmpsac.2002.1045111},
+year = {2003},
+pages = {835-840},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_2184,
+title = {Clustering Test Cases in Web Application Regression Testing using Self-Organizing Maps},
+abstract = {In the software testing domain, different techniques and approaches are used to support the process of regression testing in an effective way. Test case prioritization techniques improve the performance of regression testing, and arrange test cases in order to detect the faults in a reasonable amount of time. User-session is a unique feature of web applications that is useful in the process of regression testing as they comprise precious information about the application state before and after any change that is made to the software code. The main challenge is the effectiveness of average percentage fault detection rate and time constraint in the existing techniques. Thus, in this research the priority is given to the test cases, clustered according to some criteria. Using self-organizing map for clustering helps to obtain a higher fault detection rate in a relatively small time span.},
+year = {2015},
+pages = {1-14},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1033832ijast201912503,
+title = {Multipartite Based Test Case Prioritization Using Failure History},
+abstract = {Test case prioritization reorders test case execution sequence based on their early fault detection capability. In regression testing when new version is released, both current and previous version test cases are executed to cross check the desired functionality. Historical failure data ensures the previous fault detection information, which leads the potential faults in new version. Most of the existing prioritization strategies are developed either similar code or requirement coverage based, where some incorporated historical failure data. Clustering similar test cases may detect similar fault consecutively, which never ensure the maximum variety of fault coverage. This paper presents a prioritization approach based on multipartite graph clustering using historical data analysis to detect faults of different code coverage in minimum test case execution. In this strategy, test cases within each partite are distinct in terms of function coverage, which ensures dissimilarity among them. Proposed scheme is evaluated using well established Defects4j dataset, and it has reported that multipartite algorithm performs better than normal ordering, random, similarity clustering, and dissimilarity based test case prioritization approaches. The proposed method performs 42.85% and 14.28% better than similarity and dissimilarity based approaches respectively in terms of early fault detection.},
+doi = {10.33832/ijast.2019.125.03},
+year = {2019},
+journal = {International Journal of Advanced Science and Technology},
+pages = {25-42},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101142s0218194016500248,
+title = {Regression Test Cases Prioritization Using Clustering and Code Change Relevance},
+abstract = {Regression testing is important for maintaining software quality. However, the cost of regression testing is relatively high. Test case prioritization is one way to reduce this cost. Test case prioritization techniques sort test cases for regression testing based on their importance. In this paper, we design and implement a test case prioritization method based on the location of a change. The method consists of three steps: (1) clustering test cases, (2) prioritizing the clusters with respect to the relevance of the clusters to a code change, and (3) test case prioritization within each cluster based on metrics. We propose a metric for measuring test case importance based on Requirement Complexity, Code Complexity, and Code Coverage. To evaluate our method, we apply it on a launch interceptor problem program, and measure the inclusiveness and precision for clusters of test cases with respect to code change in specific test cases. Our results show that our proposed change-based prioritization method increases the likelihood of executing more relevant test cases earlier.},
+doi = {10.1142/s0218194016500248},
+year = {2016},
+journal = {International Journal of Software Engineering and Knowledge Engineering},
+pages = {733-768},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_104018ijdst2020010105,
+title = {An Effective Regression Test Case Selection Using Hybrid Whale Optimization Algorithm},
+abstract = {Test suite optimization is an ever-demanded approach for regression test cost reduction. Regression testing is conducted to identify any adverse effects of maintenance activity on previously working versions of the software. It consumes almost seventy percent of the overall software development lifecycle budget. Regression test cost reduction is therefore of vital importance. Test suite optimization is the most explored approach to reduce the test suite size to re-execute. This article focuses on test suite optimization as a regression test case selection, which is a proven N-P hard combinatorial optimization problem. The authors have proposed an almost safe regression test case selection approach using a Hybrid Whale Optimization Algorithm and empirically evaluated the same on subject programs retrieved from the Software Artifact Infrastructure Repository with Bat Search and ACO-based regression test case selection approaches. The analyses of the obtained results indicate an improvement in the fault detection ability of the proposed approach over the compared ones with significant reduction in test suite size.},
+doi = {10.4018/ijdst.2020010105},
+year = {2019},
+journal = {International Journal of Distributed Systems and Technologies},
+pages = {53-67},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105121ijsea20123603,
+title = {Test Case Prioritization Algorithm Based Upon Modified Code Coverage in Regression Testing},
+abstract = {Test case prioritization involves scheduling test cases so that performance of regression testing can be improved. To re execute all test cases after every modification in the code is an inefficient process. A technique is to execute the modified lines of code with minimum number of test cases. The proposed test case prioritization technique organizes the test case in a test suite in an ordering such that fewer lines of code need to be re executed thus faster code coverage is attained which would lead to early detection of faults.},
+doi = {10.5121/ijsea.2012.3603},
+year = {2012},
+journal = {International Journal of Software Engineering & Applications},
+pages = {29-37},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1030534ijeter2019377112019,
+title = {Comprehensive Cognizance of Regression Test Case Prioritization Techniques},
+abstract = {The worthiness of software can be effectively seen as it emerged as an integral asset that has discovered its application in each field ranging from cell phones to the medicinal treatment, covering practically all electronic devices on earth up to space, for example, satellite communication. In this way, the software has made a way of facilitating and changing the lives of humans. With such involvement of software in the life of humans, it must be developed in a sequential and well-defined way; else its quality will be compromised resulting in unreliable software. Software development is accomplished after undergoing different phases of SDLC. The quality of software can only be ensured by the means of testing. Many testing techniques are available to discover various errors/faults and debugging approaches are thus applied to remove them. One of the approaches for testing the software is exhaustive testing. But its limitation is that it can be applied only on very small programs. Due to time and cost constraints running the exhaustive testing on large programs is not a feasible idea. In regression testing, a whole test suite is executed again to make sure that changes made have not negatively affected the software. This paper has summarized the research findings of numerous researchers in the regression testing field.},
+doi = {10.30534/ijeter/2019/377112019},
+year = {2019},
+journal = {International Journal of Emerging Trends in Engineering Research},
+pages = {638-646},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105815ijmsc20170102,
+title = {Fuzzy Expert System Based Test Cases Prioritization from UML State Machine Diagram using Risk Information},
+abstract = {Regression testing is used to check that changes in the some functionality of the software to not affect its old behaviours. Test case prioritization is essential for reducing the cost of regression testing. In this paper a test cases prioritization model based on fuzzy logic is presented. State machine diagram is used to capture the behaviour of the system. Risk information is associated with the states. After change in the functionality of the system new state machine diagram is designed. This new state machine diagram is converted into Weighted Extended Finite State Machine (WEFSM). Weights are assigned to nodes and edges based on change and risk exposure. Risk exposure and change information of each test case is used as input to fuzzy model. Test cases are categorized in retestable, reusable and obsolete.},
+doi = {10.5815/ijmsc.2017.01.02},
+year = {2016},
+journal = {International Journal of Mathematical Sciences and Computing},
+pages = {17-27},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1018293seke2015115,
+title = {Similarity-based regression test case prioritization},
+abstract = {With the continuous evolution of software systems, test suites often grow very large. Rerunning all test cases may be impractical in regression testing under limited resources. Coverage-based test case prioritization techniques have been proposed to improve the effectiveness of regression testing. The original test suite often contains some test cases which are designed for exercising production features or exceptional behaviors, rather than for code coverage. Therefore, coverage-based prioritization techniques do not always generate satisfactory results. In this context, we propose a global similarity-based regression test case prioritization approach. The approach reschedules the execution order of test cases based on the distances between pair-wise test cases. We designed and conducted empirical studies on four C programs to validate the effectiveness of our proposed approach. Moreover, we also empirically compared the effects of six similarity measures on the global similarity-based test case prioritization approach. Experimental results illustrate that the global similarity-based regression test case prioritization approach using Euclidean distance is the most effective. This study aims at providing practical guidelines for picking the appropriate similarity measures.},
+doi = {10.18293/seke2015-115},
+year = {2015},
+journal = {Proceedings/Proceedings of the ... International Conference on Software Engineering and Knowledge Engineering},
+pages = {358-363},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_104236jsea2012510095,
+title = {A Test Case Prioritization through Correlation of Requirement and Risk},
+abstract = {Test case prioritization techniques have been focused on regression testing which is conducted on an already executed test suite. In fact, the test case prioritization for new testing is also required. In this paper, we propose a method to prioritize new test cases by calculating risk exposure value for requirements and analyzing risk items based on the calculation to evaluate relevant test cases and thereby determining the test case priority through the evaluated values. Moreover, we demonstrate effectiveness of our technique through empirical studies in terms of both APFD and fault severity.},
+doi = {10.4236/jsea.2012.510095},
+year = {2012},
+journal = {Journal of Software Engineering and Applications},
+pages = {823-835},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1057159gadljcmm1122015,
+title = {Metaheuristics for Multi Criteria Test Case Prioritization for Regression Testing},
+abstract = {Under the constraints of project deliveries, it is too costly to frequency run a large number of test cases. Test case prioritization is needed to rank the test cases. The prioritization must be done in such way that it is able to detect maximum number of faults in available time. Though many test case prioritization techniques have been proposed they have not considered the risk is skipping the test cases. This work solves the test case prioritization or test case subset selection as a multi criteria optimization problem. A meta heuristics algorithm in proposed in this work combining Particle swarm optimization (PSO) with Bat algorithm is proposed to solve the problem of finding best subset of regression test cases with multi objectives of reducing risk in skipping test cases, maximizing the number of faults within the constraints of time},
+doi = {10.57159/gadl.jcmm.1.1.22015},
+year = {2022},
+journal = {Journal of Computers Mechanical and Management},
+pages = {38-47},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1014257ijseia201591010,
+title = {Regression Test Cases selection for Object-Oriented Programs based on Affected Statements},
+abstract = {One of the most important activities in software maintenance is Regression testing. The re-execution of all test cases during the regression testing is costly. And even though several of the code based proposed techniques address procedural programs, so many of them can’t be use directly on object-oriented programs. This paper presents modification-revealing test case selection for regression testing of object-oriented software using dependence graph model analysis of the source code. The experimental evaluation of our proposed approach was done using nine programs. We measured the performances of our selection approach using precision and inclusiveness metrics. It was observed from the results that our approach increase the efficiency and effectiveness of regression testing in term of precision and inclusiveness. It was concluded that selection of modification-revealing test cases based on affected statements provides considerably better results for precision and inclusiveness compared to retest-all and random technique, and reducing the cost of regression testing.},
+doi = {10.14257/ijseia.2015.9.10.10},
+year = {2015},
+journal = {International Journal of Software Engineering and Its Applications},
+pages = {91-108},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109sose201027,
+title = {Test Case Prioritization for Web Service Regression Testing},
+abstract = {Regression testing is necessary to assure the quality of service-oriented business applications in their evolutions. However, because of the constraint of testing resource, entire test suite may not run as a result. Therefore, test case prioritization technique is required to increase the efficiency of Web service application regression testing. In this paper, we propose a dependence analysis based test case prioritization technique. First, we analyze the dependence relationship using control and data flow information in an orchestration language: WS-BPEL. Then we construct a weighted graph and do impact analysis to identify modification-affected elements. After that, we prioritize test cases according to covering more modification-affected elements with the highest weight. Finally we conduct a case study to illustrate the applicability of our method.},
+doi = {10.1109/sose.2010.27},
+year = {2010},
+pages = {173-178},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1011113ijicv15n1545,
+title = {An Enhancement of Coverage-Based Test Case Prioritization Technique Using Hybrid Genetic Algorithm},
+abstract = {Test Case Prioritization plays a defining role in regression testing by optimizing the ordering of test case execution for early fault detection. This ensures that modifications to the code do not adversely affect existing functionalities. TCP is considered an effective approach in regression testing that optimizes test execution by ordering test cases according to a criterion. While previous research works are based on a single criterion using Genetic or Cuckoo search to solve optimization problems in TCP, these single metrics limit their effectiveness. This study proposes a novel hybrid evolutionary algorithm approach that addresses this limitation by significantly improving the Average Percentage Fault Detection (APFD) rates in regression testing. Our adopted approach enhances the strengths of Cuckoo Search Optimization (CSO) to overcome the limitations of premature convergence in GA by parameter tuning helps to overcome the limitations of single algorithm solutions. We evaluate the performance by incorporating APFD and CE for improvement in the rate of fault detection and an increase in coverage effectiveness for a more comprehensive test suite application. Statistical evaluation using ANOVA strengthens our resolve for the adopted approach, with significant results tabulated. Experimental evaluations on Siemens Test Suite datasets demonstrate how our hybrid approach achieves an improvement in APFD of 0.271% over both GA and CSO and an improvement in CE of 6.35% over GA and 6.62%. over CSO across all test suite datasets. These findings highlight the applicability of a well-thought-out hybridized evolutionary algorithm that can be used in TCP to advance software testing practices.},
+doi = {10.11113/ijic.v15n1.545},
+year = {2025},
+journal = {International Journal of Innovative Computing},
+pages = {109-117},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10114518112261811238,
+title = {Test case prioritization using ant colony optimization},
+abstract = {Regression testing is primarily a maintenance activity that is performed frequently to ensure the validity of the modified software. In such cases, due to time and cost constraints, the entire test suite cannot be run. Thus, it becomes essential to prioritize the tests in order to cover maximum faults in minimum time. In this paper, ant colony optimization is used, which is a new way to solve time constraint prioritization problem. This paper presents the regression test prioritization technique to reorder test suites in time constraint environment along with an algorithm that implements the technique.},
+doi = {10.1145/1811226.1811238},
+year = {2010},
+journal = {ACM SIGSOFT Software Engineering Notes},
+pages = {1-7},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_107753ijsea06011005,
+title = {Performance Enhancement of Test Case Prioritization Using Hybrid Approach},
+abstract = {Regression Testing is an indispensable part of software testing process. It validates all the modifications that have been introduced into the system throughout the development period. Although it is an expensive process in terms of time and cost, yet it cannot be avoided. Therefore, various techniques have been introduced in the past for reducing the expenses involved in this process. Test Case Prioritization is one such technique that schedules the execution order of test cases with an aim to improve the rate of fault detection. In this paper, a hybrid approach has been presented which is a combination of two approaches, Adaptive approach and Genetic algorithm. The approach works by firstly employing an adaptive approach to prioritize the test cases according to their statement coverage. Further, the leftover test cases are prioritized using Genetic Algorithm. Finally, the results of the proposed approach are compared with those of Genetic Algorithm based on two parameters: execution time and average percentage of statement coverage (APSC) values. The results confirm that the proposed approach performs better in terms of both parameters.},
+doi = {10.7753/ijsea0601.1005},
+year = {2017},
+journal = {International Journal of Science and Engineering Applications},
+pages = {027-032},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109ssiri200852,
+title = {Historical Value-Based Approach for Cost-Cognizant Test Case Prioritization to Improve the Effectiveness of Regression Testing},
+abstract = {Regression testing has been used to support software testing activities and assure the acquirement of appropriate quality through several versions of a software program. Regression testing, however, is too expensive because it requires many test case executions, and the number of test cases increases sharply as the software evolves. In this paper, we propose the Historical Value-Based Approach, which is based on the use of historical information, to estimate the current cost and fault severity for cost-cognizant test case prioritization. We also conducted a controlled experiment to validate the proposed approach, the results of which proved the proposed approachpsilas usefulness. As a result of the proposed approach, software testers who perform regression testing are able to prioritize their test cases so that their effectiveness can be improved in terms of average percentage of fault detected per cost.},
+doi = {10.1109/ssiri.2008.52},
+year = {2008},
+pages = {39-46},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_104018ijsi312263,
+title = {A Systematic Literature Review on Test Case Prioritization Techniques},
+abstract = {Regression testing (RT) provides confidence for any software to work properly after incorporating modifications in the software functionalities. The amendments in the software are visible due to the evolution or the adoption of the new functionalities in the software. New test cases might be added or removed from the test suit during the RT. TCP seeks to provide an execution order of test cases when test cases are large in number for the detection of faults at an early stage. This paper provides classification of available TCP techniques that are examined based on the six research questions having higher relevance regarding the TCP. To carry out a systematic literature review (SLR) on TCP techniques, the authors extracted a large number of papers from appropriate repositories of journals, conferences, workshops, and symposiums using various search keywords. Each TCP approach has its own limitations, potential value, and advantages, which are covered in this SLR in considerable detail.},
+doi = {10.4018/ijsi.312263},
+year = {2022},
+journal = {International Journal of Software Innovation},
+pages = {1-36},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109hase200764,
+title = {A Coverage Relationship Model for Test Case Selection and Ranking for Multi-version Software},
+abstract = {Testing a group of software artifacts that implement the same specification can be time consuming, especially when the test case repository is large. In the meantime, some test cases may cover the same aspects in the software, thus it is not necessary to apply all the test cases. This paper proposes a model-based adaptive test (MAT) case selection and ranking technique to eliminate duplicate test cases, i.e., test cases with the similar coverage, and rank the test cases according to their potency and coverage. This technique can be applied in various domains where multiple versions of applications are available to test, such as web service testing, n-version applications, regression testing, and standard-based testing. The MAT is based a statistical model based on earlier testing results, and the model can determine the next sets of test cases to minimize the testing effort. The MAT is then applied to testing of multi-versioned web services and the results shows that the MAT can reduce testing effort while still maintain the effectiveness of testing.},
+doi = {10.1109/hase.2007.64},
+year = {2007},
+pages = {105-112},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10512033364589,
+title = {Particle Swarm Optimization with CrossOver Operator for Prioritization in Regression Testing},
+abstract = {Software Testing is continuous process of development and maintenance in life of software. In maintenance phase, regression testing gets exercisedwith additional resources/time for performance. The prioritization of test cases helps to reduce the cost-time of regression testing. Hence, completing Regression Testing effectively and on schedule is challenge for software tester. In this research paper, the Particle Swarm Optimization (PSO) technology has been studied and used with the blend of Genetic Algorithm (GA) and the hybrid prioritized algorithm has been proposed. The Particle Swarm Optimization is an optimization algorithm based on heuristic search which can be used to solve time-constraint environment of Test Case Prioritization and the concept of Genetic Algorithm will further help in diversifying the solution within whole search space. For finding the effectiveness of hybrid prioritization algorithm: the efficiency %, saving %, reduction % and APFD/APCC has been calculated.},
+doi = {10.5120/3336-4589},
+year = {2011},
+journal = {International Journal of Computer Applications},
+pages = {27-34},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_2816,
+title = {A Multi-Objective Technique for Test Suite Reduction},
+abstract = {Entire test suites are often used to conduct regression testing on subject applications even after limited and precise changes performed during maintenance operations. Often, this practice makes regression testing difficult and costly. To deal with these issues, techniques to reduce test suites have been proposed and adopted. In this paper, we present a multi-objective technique for test suite reduction. It uses information related to the code and requirements coverage, the past execution cost of each test case in the test suite, and traceability link among software artifacts. We evaluated our proposal by testing three Java applications and comparing the achieved results with those of some baseline techniques. The results indicate that our proposal outperforms the baselines and that improvements are still possible.},
+year = {2013},
+journal = {CINECA IRIS Institutional Research Information System (University of Basilicata)},
+pages = {18-24},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_104018ijec304032,
+title = {Fault-Based Test Case Prioritization of Regression Testing Using Genetic Algorithm},
+abstract = {Prioritization of test case technique schedules the test suite in an order which will increase the efficiency and effectiveness of the system. The test case executed in an order which enhances the probability of finding the fault and also it finds the severe fault at the early stage. The prioritization of test case is proved to be useful for the regression testing. While much research is going on code coverage based prioritization technique and requirement based test case prioritization technique is not used by many. In this paper, test case prioritization technique based on fault of regression technique is proposed from the requirement specification, to improve the software quality and to increase the fault detection rate. In this paper, test case prioritization is done based the six main factors (i) requirement based on customer priority (ii) based on changes made in requirement specification (iii) complexity in Implementation of code (iv) re-usability (v) flow of application (vi) impact of the fault.},
+doi = {10.4018/ijec.304032},
+year = {2022},
+journal = {International Journal of e-Collaboration},
+pages = {1-16},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1010800972051020181466962,
+title = {Hybridization of Cuckoo-ACO algorithm for test case prioritization},
+abstract = {Regression testing is one of the types of maintenance testing and it is performed in case of bug-fixing or whenever there is any new functionality incorporate in the dynamic environment of software development process. Due to which the cost of development process increases because it directly affects the validation process. The addition of the new requirements with limited resources of development process in a time constrained environment definitely increase the cost. Efficient and effective test case selection from the available test suite becomes very critical problem in this scenario and this situation makes it important to applying of some techniques which are prioritization of test cases and selection of test cases for re-arrangement of test cases in a particular schedule and these test cases are selected in a particular sequence order to fulfillment of some selected criteria. This paper suggests Cuckoo Search (CS) algorithm followed by Modified Ant Colony Optimization (M-ACO) algorithm to conclude the test cases in an optimized order in time constrained environment. CS algorithm is inspired by some species of cuckoos having constrained brood lethargy and laying of their eggs in other host bird’s nest. Due to dependency of this algorithm on one single parameter, cuckoo search unlike other optimization algorithms, is more efficient and very easy to implement. But the hybrid Cuckoo-ACO optimization technique is more appropriate for the test case selection and prioritization according to the proposed empirical study.},
+doi = {10.1080/09720510.2018.1466962},
+year = {2018},
+journal = {Journal of Statistics and Management Systems},
+pages = {539-546},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109issre201126,
+title = {An Empirical Study of JUnit Test-Suite Reduction},
+abstract = {As test suites grow larger during software evolution, regression testing becomes expensive. To reduce the cost of regression testing, test-suite reduction aims to select a minimal subset of the original test suite that can still satisfy all the test requirements. While traditional test-suite reduction techniques were intensively studied on C programs with specially generated test suites, there are limited studies for test-suite reduction on programs with real-world test suites. In this paper, we investigate test-suite reduction techniques on Java programs with real-world JUnit test suites. We implemented four representative test-suite reduction techniques for JUnit test suites. We performed an empirical study on 19 versions of four real-world Java programs, ranging from 1.89 KLoC to 80.44 KLoC. Our study investigates both the benefits and the costs of test-suite reduction. The results show that the four traditional test-suite reduction techniques can effectively reduce these JUnit test suites without substantially reducing their fault-detection capability. Based on the results, we provide a guideline for achieving cost-effective JUnit test suite reduction.},
+doi = {10.1109/issre.2011.26},
+year = {2011},
+pages = {170-179},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101587transinf2016edp7356,
+title = {Coverage-Based Clustering and Scheduling Approach for Test Case Prioritization},
+abstract = {Regression testing is essential for assuring the quality of a software product. Because rerunning all test cases in regression testing may be impractical under limited resources, test case prioritization is a feasible solution to optimize regression testing by reordering test cases for the current testing version. In this paper, we propose a novel test case prioritization approach that combines the clustering algorithm and the scheduling algorithm for improving the effectiveness of regression testing. By using the clustering algorithm, test cases with same or similar properties are merged into a cluster, and the scheduling algorithm helps allocate an execution priority for each test case by incorporating fault detection rates with the waiting time of test cases in candidate set. We have conducted several experiments on 12 C programs to validate the effectiveness of our proposed approach. Experimental results show that our approach is more effective than some well studied test case prioritization techniques in terms of average percentage of fault detected (APFD) values.},
+doi = {10.1587/transinf.2016edp7356},
+year = {2017},
+journal = {IEICE Transactions on Information and Systems},
+pages = {1218-1230},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1021307ijssis2017233,
+title = {Hybrid Data Approach for Selecting Effective test Cases During the Regression Testing},
+abstract = {Abstract In the software industry, software testing becomes more important in the entire software development life cycle. Software testing is one of the fundamental components of software quality assurances. Software Testing Life Cycle (STLC)is a process involved in testing the complete software, which includes Regression Testing, Unit Testing, Smoke Testing, Integration Testing, Interface Testing, System Testing &amp; etc. In the STLC of Regression testing, test case selection is one of the most important concerns for effective testing as well as cost of the testing process. During the Regression testing, executing all the test cases from existing test suite is not possible because that takes more time to test the modified software. This paper proposes new Hybrid approach that consists of modified Greedy approach for handling the test case selection and Genetic Algorithm uses effective parameter like Initial Population, Fitness Value, Test Case Combination, Test Case Crossover and Test Case Mutation for optimizing the tied test suite. By doing this, effective test cases are selected and minimized the tied test suite to reduce the cost of the testing process. Finally the result of proposed approach compared with conventional greedy approach and proved that our approach is more effective than other existing approach.},
+doi = {10.21307/ijssis-2017-233},
+year = {2017},
+journal = {International Journal on Smart Sensing and Intelligent Systems},
+pages = {1-24},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_104018ijitpm2021010101,
+title = {Survey on Prioritizing Test Cases in Various Levels of the Software Development Life Cycle},
+abstract = {Test case prioritization is a technical method to reorder the execution of test cases to reduce regression testing costs. This paper has examined various existing techniques that are widely used and suggests improving test case prioritization process after finding many research gaps. These research gaps are collected after doing a thorough study on 206 papers after surfing 310 papers on test case generation and prioritization techniques. These papers are collected from different electronic databases such as IEEE Explore, Science Direct, ACM Library, Springer, Wiley, and Elsevier. The authors have targeted to make a statistical record to show research contribution on test case prioritization at three levels of software development life cycle. This survey shows that 20.87% of papers are contributing for TCP at the requirement phase, 38.83% of papers are contributing for TCP at the design phase, 40.29% of papers are contributing to TCP at the coding phase. The inference of this study cites many future recommendations for the current researchers in the conclusion section.},
+doi = {10.4018/ijitpm.2021010101},
+year = {2020},
+journal = {International Journal of Information Technology Project Management},
+pages = {1-28},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109tse200692,
+title = {On the Use of Mutation Faults in Empirical Assessments of Test Case Prioritization Techniques},
+abstract = {Regression testing is an important activity in the software life cycle, but it can also be very expensive. To reduce the cost of regression testing, software testers may prioritize their test cases so that those which are more important, by some measure, are run earlier in the regression testing process. One potential goal of test case prioritization techniques is to increase a test suite's rate of fault detection (how quickly, in a run of its test cases, that test suite can detect faults). Previous work has shown that prioritization can improve a test suite's rate of fault detection, but the assessment of prioritization techniques has been limited primarily to hand-seeded faults, largely due to the belief that such faults are more realistic than automatically generated (mutation) faults. A recent empirical study, however, suggests that mutation faults can be representative of real faults and that the use of hand-seeded faults can be problematic for the validity of empirical results focusing on fault detection. We have therefore designed and performed two controlled experiments assessing the ability of prioritization techniques to improve the rate of fault detection of test case prioritization techniques, measured relative to mutation faults. Our results show that prioritization can be effective relative to the faults considered, and they expose ways in which that effectiveness can vary with characteristics of faults and test suites. More importantly, a comparison of our results with those collected using hand-seeded faults reveals several implications for researchers performing empirical studies of test case prioritization techniques in particular and testing techniques in general.},
+doi = {10.1109/tse.2006.92},
+year = {2006},
+journal = {IEEE Transactions on Software Engineering},
+pages = {733-752},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_103897jucs65241,
+title = {K-Step Crossover Method based on Genetic Algorithm for Test Suite Prioritization in Regression Testing},
+abstract = {Software is an integration of numerous programming modules&amp;nbsp; (e.g., functions, procedures, legacy system, reusable components, etc.) tested and combined to build the entire module. However, some undesired faults may occur due to a change in modules while performing validation and verification. Retesting of entire software is a costly affair in terms of money and time. Therefore, to avoid retesting&amp;nbsp;of entire&amp;nbsp;software, regression testing is performed. In regression testing, an earlier created test suite is used to retest the software system&amp;#39;s modified module. Regression Testing works in three manners; minimizing test cases, selecting test cases, and prioritizing test cases. In this paper, a two-phase algorithm has been proposed that considers test case selection and test case prioritization technique for performing regression testing on several modules ranging from a smaller line of codes to huge line codes of procedural language. A textual based differencing algorithm has been implemented for test case selection. Program statements modified between two modules are used for textual differencing and utilized to identify test cases that affect modified program statements. In the next step, test case prioritization is implemented by applying the Genetic Algorithm for code/condition coverage. Genetic operators: Crossover and Mutation have been applied over the initial population (i.e. test cases), taking code/condition coverage as fitness criterion to provide a prioritized test suite. Prioritization algorithm can be applied over both original and reduced test suite depending upon the test suite&amp;#39;s size or the need for accuracy. In the obtained results, the efficiency of the prioritization algorithms has been analyzed by the Average Percentage of Code Coverage (APCC) and Average Percentage of Code Coverage with cost (APCCc). A comparison of the proposed approach is also done with the previously proposed methods and it is observed that APCC &amp;amp; APCCc values achieve higher percentage values faster in the case of the prioritized test suite in contrast to the non-prioritized test suite.},
+doi = {10.3897/jucs.65241},
+year = {2021},
+journal = {JUCS - Journal of Universal Computer Science},
+pages = {170-189},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icsm1999792604,
+title = {Test case prioritization: an empirical study},
+abstract = {Test case prioritization techniques schedule test cases for execution in an order that attempts to maximize some objective function. A variety of objective functions are applicable; one such function involves rate of fault detection-a measure of how quickly faults are detected within the testing process. An improved rate of fault detection during regression testing can provide faster feedback on a system under regression test and let debuggers begin their work earlier than might otherwise be possible. In this paper we describe several techniques for prioritizing test cases and report our empirical results measuring the effectiveness of these techniques for improving rate of fault detection. The results provide insights into the tradeoffs among various techniques for test case prioritization.},
+doi = {10.1109/icsm.1999.792604},
+year = {1999},
+pages = {179-188},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icccnet20084787662,
+title = {Incorporating varying requirement priorities and costs in test case prioritization for new and regression testing},
+abstract = {Test case prioritization schedules the test cases in an order that increases the effectiveness in achieving some performance goals. One of the most important performance goals is the rate of fault detection. Test cases should run in an order that increases the possibility of fault detection and also that detects the most severe faults at the earliest in its testing life cycle. Test case prioritization techniques have proved to be beneficial for improving regression testing activities. While code coverage based prioritization techniques are found to be taken by most scholars, test case prioritization based on requirements in a cost effective manner has not been taken for study so far. Hence, in this paper, we propose to put forth a model for system level Test Case Prioritization (TCP) from software requirement specification to improve user satisfaction with quality software that can also be cost effective and to improve the rate of severe fault detection. The proposed model prioritizes the system test cases based on the six factors: Customer priority, Changes in Requirement, Implementation Complexity, Usability, Application Flow and Fault Impact. The proposed prioritization technique is experimented in three phases with student projects and two sets of industrial projects and the results show convincingly that the proposed prioritization technique improves the rate of severe fault detection.},
+doi = {10.1109/icccnet.2008.4787662},
+year = {2008},
+pages = {1-9},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_103233jifs181998,
+title = {Version specific test case prioritization approach based on artificial neural network},
+abstract = {Regression testing involves validating a software system after modification to ensure that the previous bugs have been fixed and no new error has been raised. Finding faults early and increasing the fault detection rate are the main objectives of regression testing. A common technique involves re-executing the whole test suite, which is time consuming. Test case prioritization aims to schedule the test cases in an order that could achieve the regression testing goals early in the testing phase. Recently, machine learning techniques have been extensively used in regression testing to make it more effective and efficient. In this paper, we propose and investigate whether an Artificial Neural Network (ANN)-based approach can improve the version specific test case prioritization approach. The proposed approach utilizes the combination of test cases complexity information and software modification information with an ANN, for early detection of critical faults. Three new factors have been proposed, based on which an ANN is trained and finally it can automatically assign priorities to new test cases. The proposed approach is empirically evaluated with two software applications. Effectiveness metrics, such as fault detection rate, accuracy, precision, and recall are examined. The results suggest that the proposed approach is both effective and feasible.},
+doi = {10.3233/jifs-181998},
+year = {2019},
+journal = {Journal of Intelligent & Fuzzy Systems},
+pages = {6181-6194},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105120131280484,
+title = {Analysis of Test Case Prioritization in Regression Testing using Genetic Algorithm},
+abstract = {Testing is an accepted technique for improving the quality of developed software with the increase in size and complexity of modern software products, the importance of testing is rapidly growing. Regression testing plays a vital role for software maintenance when software is modified. The main purpose of regression testing is to ensure the bugs are fixed and the new functionality that are incorporated in a new version of a software do not unfavorably affect the correct functionality of the previous version. So to revalidate the modified software, regression testing is the right testing process. Though it is an expensive process which requires executing maintenance process frequently but it becomes necessary for subsequent version of test suites. To evaluate the quality of test cases which are used to test a program.Testing requires execution of a program. In this paper it is proposed a new test case prioritization technique using genetic algorithm. The proposed technique separate the test case detected as severe by customer and among the rest test case prioritizes subsequences of the original test suite so that the new suite, which is to run within a time-constrained execution environment. It will have a superior rate of fault detection when compared to rates of randomly prioritized test suites. This experiment analyzes the genetic algorithm with regard to effectiveness and time overhead by utilizing structurallybased criterion to prioritize test cases.},
+doi = {10.5120/13128-0484},
+year = {2013},
+journal = {International Journal of Computer Applications},
+pages = {1-10},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101142s0218194022500085,
+title = {GASSER: A Multi-Objective Evolutionary Approach for Test Suite Reduction},
+abstract = {Regression testing is a practice that ensures a System Under Test (SUT) still works as expected after changes have been implemented. The simplest approach for regression testing is Retest-all, which consists of re-executing the entire Test Suite (TS) on the changed version of the SUT. Retest-all could be expensive in case a SUT and its TS grow in size and, if resources are insufficient, its application could be impracticable. A Test Suite Reduction (TSR) approach aims to overcome these issues by reducing the size of TSs, while preserving their fault-detection capability. In this paper, we introduce and validate an approach for TSR based on a multi-objective evolutionary algorithm, namely, Non-dominated Sorting Genetic Algorithm II (NSGA-II). This approach seeks to reduce TSs by maximizing both statement coverage and diversity of test cases of the reduced TSs, while minimizing the size of the reduced TSs. We named this approach Genetic Algorithm for teSt SuitE Reduction (GASSER). To assess GASSER, we conducted an experiment on 19 versions of four software systems from a public dataset—i.e. Software-artifact Infrastructure Repository (SIR). We compared GASSER with nine baseline approaches. The comparison was based on the size of the reduced TSs and their fault-detection capability. The most important take-away result is that GASSER, as compared with the baseline approaches, reduces more the size of the TSs with a non-significant effect on their fault-detection capability. The results of our empirical assessment suggest that the application of multi-objective evolutionary algorithms and, in particular, NSGA-II might represent a viable means to deal with TSR.},
+doi = {10.1142/s0218194022500085},
+year = {2022},
+journal = {International Journal of Software Engineering and Knowledge Engineering},
+pages = {193-225},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109ase200977,
+title = {Adaptive Random Test Case Prioritization},
+abstract = {Regression testing assures changed programs against unintended amendments. Rearranging the execution order of test cases is a key idea to improve their effectiveness. Paradoxically, many test case prioritization techniques resolve tie cases using the random selection approach, and yet random ordering of test cases has been considered as ineffective. Existing unit testing research unveils that adaptive random testing (ART) is a promising candidate that may replace random testing (RT). In this paper, we not only propose a new family of coverage-based ART techniques, but also show empirically that they are statistically superior to the RT-based technique in detecting faults. Furthermore, one of the ART prioritization techniques is consistently comparable to some of the best coverage-based prioritization techniques (namely, the "additional" techniques) and yet involves much less time cost.},
+doi = {10.1109/ase.2009.77},
+year = {2009},
+pages = {233-244},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icsm20059,
+title = {A controlled experiment assessing test case prioritization techniques via mutation faults},
+abstract = {Regression testing is an important part of software maintenance, but it can also be very expensive. To reduce this expense, software testers may prioritize their test cases so that those that are more important are run earlier in the regression testing process. Previous work has shown that prioritization can improve a test suite's rate of fault detection, but the assessment of prioritization techniques has been limited to hand-seeded faults, primarily due to the belief that such faults are more realistic than automatically generated (mutation) faults. A recent empirical study, however, suggests that mutation faults can be representative of real faults. We have therefore designed and performed a controlled experiment to assess the ability of prioritization techniques to improve the rate of fault detection techniques, measured relative to mutation faults. Our results show that prioritization can be effective relative to the faults considered, and they expose ways in which that effectiveness can vary with characteristics of faults and test suites. We also compare our results to those collected earlier with respect to the relationship between hand-seeded faults and mutation faults, and the implications this has for researchers performing empirical studies of prioritization.},
+doi = {10.1109/icsm.2005.9},
+year = {2005},
+pages = {411-420},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1035378gujs1446469,
+title = {Prioritization of Regression Test Cases Based on Machine Learning Methods},
+abstract = {Due to resource and time constraints involved in the software testing process, it is not possible to implement all test scenarios for each release. Test scenarios can be prioritized according to certain criteria defined by the developers to ensure effective execution of the testing process and detection of errors. This study investigated whether machine learning based models could be used to prioritize test scenarios created in regression testing. It is attempted to determine which tests can be prioritized for execution based on different independent variables. In total, each of the 964 test scenarios in the dataset was labelled as minor (482) and major (482) by two experts. In the models, the number of related requirements, the number of related errors, and the age of the scenario were used as independent variables, and the scenario classes labelled as minor - major were taken as the target variable. The scenarios were pre-processed using natural language processing techniques and different machine learning algorithms were used for model development. In the classification based on test scenarios, the random forest algorithm showed the best performance with a F1-score of 81%. In the classification based on the number of related requirements, the number of interrelated errors, and the age of the test scenarios, the random forest model once again demonstrated the highest success rate at 79%. This study demonstrates that machine learning techniques offer a variety of models for test case prioritization.},
+doi = {10.35378/gujs.1446469},
+year = {2024},
+journal = {GAZI UNIVERSITY JOURNAL OF SCIENCE},
+pages = {131-144},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_104018ijossp2021040101,
+title = {Search-Based Regression Testing Optimization},
+abstract = {Regression testing is one of the essential activities during the maintenance phase of software projects. It is executed to ensure the validity of an altered software. However, as the software evolves, regression testing becomes prohibitively expensive. In order to reduce the cost of regression testing, it is mandatory to reduce the size of the test suite by selecting the most representative test cases that do not compromise the effectiveness of the regression testing in terms of fault-detection capability. This problem is known as test suite reduction (TSR) problem, and it is known to be an NP-complete. The paper proposes a multi-objective adapted binary bat algorithm (ABBA) to solve the TSR problem. The original binary bat (OBBA) algorithm was adapted to enhance its exploration capabilities during the search for a Pareto-optimal surface. The effectiveness of the ABBA was evaluated using six Java programs with different sizes. Experimental results showed that for the same fault discovery rate, the ABBA is capable of reducing the test suite size more than the OBBA and the BPSO.},
+doi = {10.4018/ijossp.2021040101},
+year = {2021},
+journal = {International Journal of Open Source Software and Processes},
+pages = {1-20},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_109790066116343847,
+title = {Regression Test Case Selection &amp;PrioritizationUsing Dependence Graph and Genetic Algorithm},
+abstract = {Regression testing is very important process in software maintenance. Unfortunately, it iscostly and time consumingto allow for the re-execution of all test cases during regression testing. The challenge in regression testing is the selection of best test cases from the existing test suite.This paper presents an evolutionary regression test case prioritization for object-oriented software based on extended system dependence graph model of the affected program using genetic algorithm. The approach is based on optimization of selected test case from dependency analysis of the source codes. The goal is to identify changes in a method's body due to data dependence, control dependence and dependent due to object relation such as inheritance and polymorphism, select the test cases based on affected statements and ordered them based on their fitness by using GA.The number of affected statements determined how fit a test case is good for regression testing. A case study is reported to provide evidence of the feasibility of the approach and its benefits in increasing the rate of fault detection and reduction in regression testing effort compared with retest-all. It was shown that our approach needs 30% of the test cases to cover all the faults, while 80% is needed to cover all the faults using retest-all, which is time consuming and costly.},
+doi = {10.9790/0661-16343847},
+year = {2014},
+journal = {IOSR Journal of Computer Engineering},
+pages = {38-47},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1022266ijies2018022823,
+title = {Cost Cognizant History Based Prioritization of Test Case for Regression Testing},
+abstract = {Regression testing is one among the strongest testing criteria which ensure the quality of the software under test. However, regression testing is too expensive due to execution of too many test cases .Test case prioritization is one of the traditional techniques which improve the regression testing by proposing a test case order that increases the rate of fault detection . In this paper, we propose a costcognizant history based test case prioritization approach that utilizes the historical information of the test cases like cost, fault identified by the test case and the severity of the identified fault for prioritization. Also an artificial immune system based, Clonal selection algorithm is proposed to find an effective test case order from existing test suite. To evaluate the proposed approach, controlled experiment were performed and the evaluation results indicates the test case order produced by proposed approach shows improvement in terms of average percentage of fault detected per cost.},
+doi = {10.22266/ijies2018.0228.23},
+year = {2018},
+journal = {International journal of intelligent engineering and systems},
+pages = {221-228},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105120176208337,
+title = {Ants Optimization for Minimal Test Case Selection and Prioritization as to Reduce the Cost of Regression Testing},
+abstract = {Software testing is the major process in software development life cycle. Regression testing is very costly and inevitable activity that is to be performed in a restricted environment to ensure the validity of modified software. It is inefficient to rerun every test case from test suite when some kind of modification is done in the software. Test case selection and prioritization techniques select and organize the test cases in a test suite based on some criteria such that the faults are covered quickly with minimum execution time. This task can be done on basis of the Ant Colony Optimization technique (ACO) of Swarm Intelligence as it is not deeply studied yet. The main objective of this thesis is to solve the path problem: Means to find the shortest path and Resolve the time problem: Means to minimize the time of finding shortest path. Because of time and cost constraint, it is not possible to perform extensive regression testing. Techniques such as test case selection and prioritization are used to solve the problem of time and cost constraints. In this paper we are modifying the previous technique to get better results in case of execution time and then the Effectiveness of techniques is checked with the help of APFD metric.},
+doi = {10.5120/17620-8337},
+year = {2014},
+journal = {International Journal of Computer Applications},
+pages = {48-54},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icsm20116080803,
+title = {Industrial experiences with automated regression testing of a legacy database application},
+abstract = {This paper presents a practical approach and tool (DART) for functional black-box regression testing of complex legacy database applications. Such applications are important to many organizations, but are often difficult to change and consequently prone to regression faults during maintenance. They also tend to be built without particular considerations for testability and can be hard to control and observe. We have therefore devised a practical solution for functional regression testing that captures the changes in database state (due to data manipulations) during the execution of a system under test. The differences in changed database states between consecutive executions of the system under test, on different system versions, can help identify potential regression faults. In order to make the regression test approach scalable for large, complex database applications, classification tree models are used to prioritize test cases. The test case prioritization can be applied to reduce test execution costs and analysis effort. We report on how DART was applied and evaluated on business critical batch jobs in a legacy database application in an industrial setting, namely the Norwegian Tax Accounting System (SOFIE) at the Norwegian Tax Department (NTD). DART has shown promising fault detection capabilities and cost-effectiveness and has contributed to identify many critical regression faults for the past eight releases of SOFIE.},
+doi = {10.1109/icsm.2011.6080803},
+year = {2011},
+pages = {362-371},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1022266ijies2024022964,
+title = {An Improved Deep Learning Based Test Case Prioritization Using Deep Reinforcement Learning},
+abstract = {Continuous integration (CI) testing is crucial in modern software engineering and test case prioritization (TCP) techniques improve regression testing (RT) by prioritizing test cases (TCs).Various model has been developed to improve TCs failure prediction and prioritization in CI environments.But, prioritizing the TCs on large test suites without loss of information is a major challenging task.To address this, deep reinforcement prioritizer (DeepRP) model is proposed to improve prioritization in TCP on large test suites.This model employs deep reinforcement learning (DRL) model to learn more test case features, such as changes in source code, version control and code coverage.Also, it enhances self-optimization and adaptive ability for TCP.DRL training employs a deep neural network (DNN) structure to approximate various RL functions like value operation, Q function, transformation system and reward function.An RL system called Q-Learning which determines the appropriate action for an agent based on their action-value role.The DeepRP model uses test case features as input data and the priority of the test case as output.The action includes categorising TCs based on given scores, updating evaluations, calculating reward, and storing the chosen score in a temporary vector among the operations.The reward is computed based on the difference among the specified and ideal rankings for improved TCP on large test suites.The actions include sorting TCs based on assigned scores, updating observations, computing a reward and preserving the selected score in a temporary vector.The reward is calculated based on the distance between the assigned and optimal ranks for better TCP on large test suites.Finally, experimental results show DeepRP significantly achieves RMSE values of 0.09, 0.11 and 0.10 on paint control, IOF/ROL and GSDTSR datasets which is lesser than existing models algorithms like Deepgini, Hansie, DeepOrder, LogTCP and RL-TCP models.},
+doi = {10.22266/ijies2024.0229.64},
+year = {2023},
+journal = {International journal of intelligent engineering and systems},
+pages = {771-782},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101016jjss201109063,
+title = {A history-based cost-cognizant test case prioritization technique in regression testing},
+doi = {10.1016/j.jss.2011.09.063},
+year = {2011},
+journal = {Journal of Systems and Software},
+pages = {626-637},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1022214ijraset202245247,
+title = {Comparative Analysis of Efficacious Metaheuristic Technique with Genetically Modified- Flower Pollination Algorithm (GM-FPA) for Test Case Prioritization in Regression Testing},
+abstract = {Abstract: Regression Testing is most imperative activity of software development life cycle. Test case prioritization being one of the most adopted branch for regression testing and with the invent of nature inspired metaheuristic techniques in optimization, this study makes an attempt to augments the features of test case prioritization with nature inspired metaheuristic techniques to determine the most efficacious metaheuristic techniques from Cuckoo Searh (CS) algorithm, Genetic Algorithm (GA) and Flower Pollination Algorithm (FPA) for three different case studies. APFD metrics is used to compare the algorithms. Further the study compares the most efficacious technique with Genetically Modified- Flower Pollination Algorithm (GM-FPA) to identify the most efficient technique for regression test case prioritization.},
+doi = {10.22214/ijraset.2022.45247},
+year = {2022},
+journal = {International Journal for Research in Applied Science and Engineering Technology},
+pages = {221-226},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10114514531011453113,
+title = {An empirical study of the effect of time constraints on the cost-benefits of regression testing},
+abstract = {Regression testing is an expensive process used to validate modified software. Test case prioritization techniques improve the cost-effectiveness of regression testing by ordering test cases such that those that are more important are run earlier in the testing process. Many prioritization techniques have been proposed and evidence shows that they can be beneficial. It has been suggested, however, that the time constraints that can be imposed on regression testing by various software development processes can strongly affect the behavior of prioritization techniques. Therefore, we conducted an experiment to assess the effects of time constraints on the costs and benefits of prioritization techniques. Our results show that time constraints can indeed play a significant role in determining both the cost-effectiveness of prioritization, and the relative cost-benefit tradeoffs among techniques, with important implications for the use of prioritization in practice.},
+doi = {10.1145/1453101.1453113},
+year = {2008},
+pages = {71-82},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1021833ijaas202105012,
+title = {Test case prioritization techniques in software regression testing: An overview},
+abstract = {The importance of Software Testing (ST) in the Software Development Life Cycle (SDLC) can never be ignored. Smarter ST can give us more relievable and defect-free products which are as per our stakeholder demand. That is the reason it takes more time and resources. But unfortunately, the limited time has left when the product reached the testing stage, especially in Regression Testing (RT). That is the reason proper planning is required in each SDLC phase, especially in the testing phase. Regression testing is an essential part of the testing phase. It guarantees defect-free software after any changes made to the requirement or software product. Because of the limited time available, it is impossible to execute all the test cases every time any changes made in the code there comes the role of the test case prioritization. TCP chooses only test cases that are most important to execute. The priority of test cases could be based on code, requirement, defects, execution time, cost, etc. After TCP the developer and tester have a minimum test case suite with better coverage in all respects. TCP definitely improves the quality of software and brings the best product within a limited time and cost. In this paper, we have provided a detailed survey of the TCP methodologies. This survey includes 2010 to the most recent studies. In this study, we have select carefully the most recent and relevant study of our topic.},
+doi = {10.21833/ijaas.2021.05.012},
+year = {2021},
+journal = {International Journal of ADVANCED AND APPLIED SCIENCES},
+pages = {107-121},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1047893ijcsi20131113,
+title = {Regression Test Suite Reduction using an Hybrid Technique Based on BCO And Genetic Algorithm},
+abstract = {Regression testing is a maintenance activity that is performed to ensure the validity of modified software. The activity takes a lot of time to run the entire test suite and is very expensive. Thus it becomes a necessity to choose the minimum set of test cases with the ability to cover all the faults in minimum time. The paper presents a new test case reduction hybrid technique based on Genetic algorithms(GA) and bee colony optimization (BCO) .GA is an evolutionary algorithms (EA), which generate solutions to optimization problems using techniques inspired by natural evolution, such as inheritance, mutation, selection, and crossover. BCO is a swarm intelligence algorithm. The proposed approach adopts the behavior of bees to solve the given problem. It proves to be optimistic approach which provides optimum results in minimum time.},
+doi = {10.47893/ijcsi.2013.1113},
+year = {2013},
+journal = {International Journal of Computer Science and Informatics},
+pages = {26-33},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_106703ijase202109185012,
+title = {Analysing a novel multi-objective prioritization model using improved fuzzy c mean clustering},
+abstract = {Consistent regression testing (RT) is an abstract class, that considered indispensable for assuring the quality of software systems but it is too expensive. To minimize the computational cost of RT, test case prioritization (TCP) is the most adopted methodology in literature. The implementation of TCP process, performed using various hard clustering techniques but fuzzy clustering, one of the most sought clustering technique for selecting appropriate test cases had not been discover at a wider platform. Therefore, the proposed work discusses a novel density based fuzzy c- mean (NDB-FCM) algorithm with newly derived initialize membership function for prioritizing the test cases. It first, generates optimal number of cluster (Copt) using a density based algorithm, which in turn minimizes the search criteria to find the ‘Copt’, especially in cases where a given data set does not follow the empirical rule. Then, creates an initial fuzzy partition matrix based upon newly suggested initial membership method. In addition, a novel multi-objective prioritization model (NDS-FCMPM) proposed to achieve the performance goal of enhanced fault recognition. Initially, feature extraction carried out by exploiting the dependencies between test cases, and then test cases are clustered using proposed fuzzy clustering approach, which finally, prioritized using a newly developed prioritization algorithm. To validate the performance of suggested fuzzy clustering algorithm two-performance measure namely “Fuzzy Rand Index” and “Run Time” exercised and for prioritization algorithm “APFD” metrics is analysed. The proposed model is assessed using eclipse data extracted from Github Repository. Inferences generated depict that NDB-FCM clustering provide more stable results in terms of classification accuracy, run time and quick convergence when compared with other state-of-the-art techniques. Also, it is verified that NDS-FCMPM observes an improved rate of fault identification at early stage.},
+doi = {10.6703/ijase.202109_18(5).012},
+year = {2021},
+journal = {International Journal of Applied Science and Engineering},
+pages = {1-9},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101016jjss201201036,
+title = {Automatic test case selection for regression testing of composite service based on extensible BPEL flow graph},
+doi = {10.1016/j.jss.2012.01.036},
+year = {2012},
+journal = {Journal of Systems and Software},
+pages = {1300-1324},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101142s0218194011005499,
+title = {COST-COGNIZANT COMBINATORIAL TEST CASE PRIORITIZATION},
+abstract = {Combinatorial testing has been widely used in practice. People usually assume all test cases in combinatorial test suite will run completely. However, in many scenarios where combinatorial testing is needed, for example the regression testing, the entire combinatorial test suite is not run completely as a result of test resource constraints. To improve the efficiency of testing, combinatorial test case prioritization technique is required. For the scenario of regression testing, this paper proposes a new cost-cognizant combinatorial test case prioritization technique, which takes both combination weights and test costs into account. Here we propose a series of metrics with physical meaning, which assess the combinatorial coverage efficiency of test suite, to guide the prioritization of combinatorial test cases. And two heuristic test case prioritization algorithms, which are based on total and additional techniques respectively, are utilized in our technique. Simulation experimental results illustrate some properties and advantages of proposed technique.},
+doi = {10.1142/s0218194011005499},
+year = {2011},
+journal = {International Journal of Software Engineering and Knowledge Engineering},
+pages = {829-854},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101002stv430,
+title = {Regression testing minimization, selection and prioritization: a survey},
+abstract = {Regression testing is a testing activity that is performed to provide confidence that changes do not harm the existing behaviour of the software. Test suites tend to grow in size as software evolves, often making it too costly to execute entire test suites. A number of different approaches have been studied to maximize the value of the accrued test suite: minimization, selection and prioritization. Test suite minimization seeks to eliminate redundant test cases in order to reduce the number of tests to run. Test case selection seeks to identify the test cases that are relevant to some set of recent changes. Test case prioritization seeks to order test cases in such a way that early fault detection is maximized. This paper surveys each area of minimization, selection and prioritization technique and discusses open problems and potential directions for future research. Copyright (C) 2010 John Wiley &amp; Sons, Ltd.},
+doi = {10.1002/stv.430},
+year = {2012},
+journal = {Software Testing Verification and Reliability},
+pages = {67-120},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icws201175,
+title = {Test Case Prioritization for Audit Testing of Evolving Web Services Using Information Retrieval Techniques},
+abstract = {Web services evolve frequently to meet new business demands and opportunities. However, service changes may affect service compositions that are currently consuming the services. Hence, audit testing (a form of regression testing in charge of checking for compatibility issues) is needed. As service compositions are often in continuous operation and the external services have limited (expensive) access when invoked for testing, audit testing has severe time and resources constraints, which make test prioritization a crucial technique (only the highest priority test cases will be executed).This paper presents a novel approach to the prioritization of audit test cases using information retrieval. This approach matches a service change description with the code portions exercised by the relevant test cases. So, test cases are prioritized based on their relevance to the service change. We evaluate the proposed approach on a system that composes services from eBay and Google.},
+doi = {10.1109/icws.2011.75},
+year = {2011},
+pages = {636-643},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_104018ijamc2019040101,
+title = {Search for Prioritized Test Cases during Web Application Testing},
+abstract = {Regression testing of evolving software is a critical constituent of the software development process. Due to resources constraints, test case prioritization is one of the strategies followed in regression testing during which a test case that satisfies predefined objectives the most, as the tester perceives, would be executed the earliest. In this study, all the experiments were performed on three web applications consisting of 65 to 100 pages with lines of code ranging from 5000 to 7000. Various state-of-the-art approaches such as, heuristic approaches, Greedy approaches, and meta heuristic approaches were applied so as to identify the prioritized test sequence which maximizes the value of average percentage of fault detection. Performance of these algorithms was compared using different parameters and it was concluded that the Artificial Bee Colony algorithm performs better than all. Two novel greedy algorithms are also proposed in the study, of which the goal is to smartly manage the state of a tie, where a tie exhibits the condition that all the test cases participating in the tie are of equal significance in achieving the objective. It has also been validated that the performance of these novel proposed algorithm(s) is better than that of traditionally followed greedy approach, most of the time.},
+doi = {10.4018/ijamc.2019040101},
+year = {2019},
+journal = {International Journal of Applied Metaheuristic Computing},
+pages = {1-26},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105120ijca2017916042,
+title = {On the Applicability of Soft Computing Techniques in Regression Testing},
+abstract = {Regression testing is required whenever changes are incorporated in software. Regression testing re-executes the test cases to verify that changes made during maintainance phase have not caused any unintended effects. Test case prioritization technique re-orders the test cases in such a way that important test cases are executed within the resources. The work reviews different test case prioritization techniques. The work also presents computational intelligence based test case prioritization techniques. The work reviews test case prioritization based on Neural Networks, Genetic Algorithms and Fuzzy Logic.},
+doi = {10.5120/ijca2017916042},
+year = {2017},
+journal = {International Journal of Computer Applications},
+pages = {8-13},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109qsic200912,
+title = {Tag-Based Techniques for Black-Box Test Case Prioritization for Service Testing},
+abstract = {A web service may evolve autonomously, making peer web services in the same service composition uncertain as to whether the evolved behaviors may still be compatible to its originally collaborative agreement. Although peer services may wish to conduct regression testing to verify the original collaboration, the source code of the former service can be inaccessible to them. Traditional code-based regression testing strategies are inapplicable. The rich interface specifications of a web service, however, provide peer services with a means to formulate black-box testing strategies. In this paper, we formulate new test case prioritization strategies using tags embedded in XML messages to reorder regression test cases, and reveal how the test cases use the interface specifications of services. We evaluate experimentally their effectiveness on revealing regression faults in modified WS-BPEL programs. The results show that the new techniques can have a high probability of outperforming random ordering.},
+doi = {10.1109/qsic.2009.12},
+year = {2009},
+pages = {21-30},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1011552014316014,
+title = {Using Fuzzy Logic in Test Case Prioritization for Regression Testing Programs with Assertions},
+abstract = {Program assertions have been recognized as a supporting tool during software development, testing, and maintenance. Therefore, software developers place assertions within their code in positions that are considered to be error prone or that have the potential to lead to a software crash or failure. Similar to any other software, programs with assertions must be maintained. Depending on the type of modification applied to the modified program, assertions also might have to undergo some modifications. New assertions may also be introduced in the new version of the program, while some assertions can be kept the same. This paper presents a novel approach for test case prioritization during regression testing of programs that have assertions using fuzzy logic. The main objective of this approach is to prioritize the test cases according to their estimated potential in violating a given program assertion. To develop the proposed approach, we utilize fuzzy logic techniques to estimate the effectiveness of a given test case in violating an assertion based on the history of the test cases in previous testing operations. We have conducted a case study in which the proposed approach is applied to various programs, and the results are promising compared to untreated and randomly ordered test cases.},
+doi = {10.1155/2014/316014},
+year = {2014},
+journal = {The Scientific World JOURNAL},
+pages = {1-9},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101142s0218194025500792,
+title = {An Environment Adaptation Agent of Reinforcement Learning in Continuous Integration Test Case Prioritization},
+abstract = {Continuous Integration (CI) is a fundamental practice in modern software development. It enables early fault detection through regression testing, where Test Case Prioritization (TCP) plays a crucial role in improving detection efficiency. Reinforcement Learning-based TCP (RL-TCP) has shown promise in CI scenarios, but its performance often fluctuates due to CI’s dynamic nature. Existing solutions address this by assigning additional rewards or periodically retraining agents. However, these methods either risk over-adjusting strategies due to excessive reliance on additional rewards or fail to respond promptly to changes due to fixed retraining intervals. We propose a novel Environment Adaptation Agent-based RL-TCP method (EAA) that addresses these challenges through a dual mechanism. EAA detects significant environmental changes by analyzing fluctuations in prioritization effectiveness. When a change is detected, it assigns targeted rewards to test cases. EAA also refines the agent’s gradient update so that environmental dynamics are better incorporated into retraining. This enables agents to swiftly adapt while retaining learned prioritization knowledge. Evaluations on 12 real-world industrial datasets show that EAA improves the NAPFD metric by 4.7–24.79% and reduces the average TTF by 35.85–50.37 positions compared to state-of-the-art RL-TCP methods. Additionally, EAA significantly reduces occurrences of NAPFD equal to zero, effectively mitigating prioritization instability.},
+doi = {10.1142/s0218194025500792},
+year = {2025},
+journal = {International Journal of Software Engineering and Knowledge Engineering},
+pages = {311-341},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109issre201213,
+title = {Oracle-Centric Test Case Prioritization},
+abstract = {Recent work in testing has demonstrated the benefits of considering test oracles in the testing process. Unfortunately, this work has focused primarily on developing techniques for generating test oracles, in particular techniques based on mutation testing. While effective for test case generation, existing research has not considered the impact of test oracles in the context of regression testing tasks. Of interest here is the problem of test case prioritization, in which a set of test cases are ordered to attempt to detect faults earlier and to improve the effectiveness of testing when the entire set cannot be executed. In this work, we propose a technique for prioritizing test cases that explicitly takes into account the impact of test oracles on the effectiveness of testing. Our technique operates by first capturing the flow of information from variable assignments to test oracles for each test case, and then prioritizing to ``cover'' variables using the shortest paths possible to a test oracle. As a result, we favor test orderings in which many variables impact the test oracle's result early in test execution. Our results demonstrate improvements in rate of fault detection relative to both random and structural coverage based prioritization techniques when applied to faulty versions of three synchronous reactive systems.},
+doi = {10.1109/issre.2012.13},
+year = {2012},
+pages = {311-320},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icsm20105609541,
+title = {Automatic test case selection and generation for regression testing of composite service based on extensible BPEL flow graph},
+abstract = {Services are highly reusable, flexible and loosely coupled, which makes the evolution and the maintenance of composite services more complex. Evolution of BPEL composite service covers changes of processes, bindings and interfaces. In this paper, an approach is proposed to select and generate test cases during the evolution of BPEL composite service. The approach identifies the changes by using control-flow analysis technique and comparing the paths in new composite service version and the old one using extensible BPEL flow graph (or XBFG). Message flow is appended to the control flow so that XBFG can describe the behavior of composite service integrally. The binding and predicate constraint information added in XBFG elements can be used in path selection and test case generation. Theory analysis and case study both show that the approach is effective, and test cases coverage rate is high for the changes of processes, bindings and interfaces.},
+doi = {10.1109/icsm.2010.5609541},
+year = {2010},
+pages = {1-10},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_4363,
+title = {A hybrid weight-based and string distances using particle swarm optimization for prioritizing test cases},
+abstract = {Regression testing is concerned with testing the modified version of software. However, to re-test entire test cases require significant cost and time. To reduce the cost and time, higher average percentage fault detection (APFD) rate and faster execution to kill fault mutant are required. Therefore, to achieve these two requirements, an improvement to existing Test Case Prioritization (TCP) technique for a more effective regression testing is offered. A weight-hybrid string distance technique and prioritization using particle swarm optimization (PSO) is proposed. Distance between test cases and weight for each test case, and hybridization of both values for weight-hybrid string distance are calculated. This experiment was evaluated using Siemens dataset. Result obtained from this experiment shows that weight-hybrid string distance is capable of improving APFD values whereby APFD value for hybrid TFIDF-JC is equal to 97.37%, which shows the highest improvement by 4.74% as compared to non-hybrid JC. Meanwhile, for percentage of test cases needed to kill 100% fault mutants, hybrid TFIDF-M yields the lowest value, 22.88%, which shows a 76% improvement as compared to its non-hybrid string distance.},
+year = {2017},
+journal = {Journal of Theoretical and Applied Information Technology},
+pages = {2723-2732},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1010800954898x20252517130,
+title = {Hybrid optimization with constraints handling for combinatorial test case prioritization problems},
+abstract = {In software development, software testing is very crucial for developing good quality software, where the effectiveness of software is to be tested. For software testing, test suites and test cases need to be prepared in minimum execution time with the test case prioritization (TCP) problems. Generally, some of the researchers mainly focus on the constraint problems, such as time and fault on TCP. In this research, the novel Fractional Hybrid Leader Based Optimization (FHLO) is introduced with constraint handling for combinatorial TCP. To detect faults earlier, the TCP is an important technique as it reduces the regression testing cost and prioritizes the test case execution. Based on the detected fault and branch coverage, the priority of the test case for program execution is decided. Furthermore, the FHLO algorithm establishes the TCP for detecting the program fault, which prioritizes the test case, and relies on maximum values of Average Percentage of Branch Coverage (APBC) and Average Percentage of Fault Detected (APFD). From the analysis, the devised FHLO algorithm attains a maximum value of 0.966 for APFD and 0.888 for APBC.},
+doi = {10.1080/0954898x.2025.2517130},
+year = {2025},
+journal = {Network Computation in Neural Systems},
+pages = {1-31},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_104018ijismd2019070106,
+title = {Test Case Prioritization Using Clustering Approach for Object Oriented Software},
+abstract = {In the software maintenance activity, regression testing is performed for validing modified source code. Regression testing ensures that the modified code would not affect the earlier tested program. Due to a constraint of resources and time, regression testing is a time-consuming process and it is a very expensive activity. During the regression testing, a set of the test case and the existing test cases are reused. To minimize the cost of regression testing, the researchers proposed a test case prioritization based on clustering techniques. In recent years, research on regression testing has made significant progress for object-oriented software. The empirical results show the importance of K-mean clustering algorithm used to achieve an effective result. They found from experimental results that their proposed approach achieves the highest faults detected value than others.},
+doi = {10.4018/ijismd.2019070106},
+year = {2019},
+journal = {International Journal of Information System Modeling and Design},
+pages = {92-109},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105120ijais14451081,
+title = {A New Effective Test Case Prioritization for Regression Testing based on Prioritization Algorithm},
+abstract = {Regression Testing is the process of executing the set of test cases which have passed on the previous build or release of the application under test in order to validate that the original features and functions are still working as they were previously. It is impracticable and in-sufficient resources to re-execute every test case for a program if changes occur. This problem of regression testing can be solved by prioritizing test cases. A regression test case prioritization technique involves re-ordering the execution of test suite to increase the rate of fault detection in earlier stages of testing process. In this paper, test case prioritization algorithm is proposed to identify the severe faults and improve the rate of fault detection. This proposed test case prioritization algorithm prioritizes the test cases based on four groups of practical weight factor such as: customer allotted priority, developer observed code execution complexity, changes in requirements, fault impact, completeness and traceability. The proposed prioritization technique is validated with three different validation metrics and is experimented using two projects. The effectiveness of proposed technique is achieved by comparing it with unprioritized ones and by validation metrics.},
+doi = {10.5120/ijais14-451081},
+year = {2014},
+journal = {International Journal of Applied Information Systems},
+pages = {21-26},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icsm20021167767,
+title = {Modeling the cost-benefits tradeoffs for regression testing techniques},
+abstract = {Regression testing is an expensive activity that can account for a large proportion of the software maintenance budget. Because engineers add tests into test suites as software evolves, over time, increased test suite size makes revalidation of the software more expensive. Regression test selection, test suite reduction, and test case prioritization techniques can help with this, by reducing the number of regression tests that must be run and by helping testers meet testing objectives more quickly. These techniques, however can be expensive to employ and may not reduce overall regression testing costs. Thus, practitioners and researchers could benefit from cost models that would help them assess the cost-benefits of techniques. Cost models have been proposed for this purpose, but some of these models omit important factors, and others cannot truly evaluate cost-effectiveness. In this paper, we present new cost-benefits models for regression test selection, test suite reduction, and test case prioritization, that capture previously omitted factors, and support cost-benefits analyses where they were not supported before. We present the results of an empirical study assessing these models.},
+doi = {10.1109/icsm.2002.1167767},
+year = {2003},
+pages = {204-213},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109compsac201066,
+title = {Design and Analysis of Cost-Cognizant Test Case Prioritization Using Genetic Algorithm with Test History},
+abstract = {During software development, regression testing is usually used to assure the quality of modified software. The techniques of test case prioritization schedule the test cases for regression testing in an order that attempts to increase the effectiveness in accordance with some performance goal. The most general goal is the rate of fault detection. It assumes all test case costs and fault severities are uniform. However, those factors usually vary. In order to produce a more satisfactory order, the cost-cognizant metric that incorporates varying test case costs and fault severities is proposed. In this paper, we propose a cost-cognizant test case prioritization technique based on the use of historical records and a genetic algorithm. We run a controlled experiment to evaluate the proposed technique's effectiveness. Experimental results indicate that our proposed technique frequently yields a higher Average Percentage of Faults Detected per Cost (APFDc). The results also show that our proposed technique is also useful in terms of APFDc when all test case costs and fault severities are uniform.},
+doi = {10.1109/compsac.2010.66},
+year = {2010},
+pages = {413-418},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_10114519821851982497,
+title = {An empirical study on the effectiveness of time-aware test case prioritization techniques},
+abstract = {Regression testing is often performed with a time budget and it does not allow executing all test cases. Test case prioritization techniques re-order test cases to increase the rate of fault detection. Several time-aware test case prioritization techniques have been proposed to satisfy a time budget. Since it is difficult to collect the time cost of each test case in some cases, a natural question is whether it is worth using such information when prioritizing test cases. In this paper, two most popular criteria: statement coverage and fault detection are considered for time-aware test case prioritization. We investigate whether the time cost of each test case affects the effectiveness of prioritization techniques, i.e. the rate of statement coverage and the rate of fault detection. Our empirical study shows that: although the techniques considering the time cost of each test case are slightly better than the techniques not considering such information in some cases, they have no significant difference in most cases.},
+doi = {10.1145/1982185.1982497},
+year = {2011},
+pages = {1451-1456},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109tse200738,
+title = {Search Algorithms for Regression Test Case Prioritization},
+abstract = {Regression testing is an expensive, but important, process. Unfortunately, there may be insufficient resources to allow for the reexecution of all test cases during regression testing. In this situation, test case prioritization techniques aim to improve the effectiveness of regression testing by ordering the test cases so that the most beneficial are executed first. Previous work on regression test case prioritization has focused on Greedy Algorithms. However, it is known that these algorithms may produce suboptimal results because they may construct results that denote only local minima within the search space. By contrast, metaheuristic and evolutionary search algorithms aim to avoid such problems. This paper presents results from an empirical study of the application of several greedy, metaheuristic, and evolutionary search algorithms to six programs, ranging from 374 to 11,148 lines of code for three choices of fitness metric. The paper addresses the problems of choice of fitness metric, characterization of landscape modality, and determination of the most suitable search technique to apply. The empirical results replicate previous results concerning Greedy Algorithms. They shed light on the nature of the regression testing search space, indicating that it is multimodal. The results also show that Genetic Algorithms perform well, although Greedy approaches are surprisingly effective, given the multimodal nature of the landscape.},
+doi = {10.1109/tse.2007.38},
+year = {2007},
+journal = {IEEE Transactions on Software Engineering},
+pages = {225-237},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_4728,
+title = {Test Suite Reduction Using HGS Based Heuristic Approach},
+abstract = {Regression testing is performed throughout the software lifecycle to uncover the faults as early as possible and to ensure that changes do not have any adverse effect in the software that is operational. Test suites once developed are reused and updated frequently. As the software evolves, test cases in the test suite may become redundant. The reason behind this is that the requirements covered by newly added test cases may also be covered by the existing test cases. This redundant nature of test suite increases the cost of executing the same. Further, resource and time constraints impose the necessity to develop techniques to minimize test suites by removing redundant test cases. Few heuristic approaches have been used to solve the test suite minimization problem. Even though solutions exist, still the redundancy of test case remains. In order to solve this problem, this paper proposes two Harrold-Gupta-Soffa (HGS) based heuristic algorithms namely, Non Redundant HGS and Enhanced HGS. The former utilizes the redundant strategy available with Greedy, Redundant, Essential (GRE) to get rid of redundancy, whereas the latter selects a test case for higher cardinalities based on overall coverage of unmarked associated testing sets and thus arrives at reduced, non-redundant test suite. The experiments show that the proposed algorithms always select smaller size of test suite, compared to the existing HGS heuristics.},
+year = {2015},
+journal = {Computing and Informatics / Computers and Artificial Intelligence},
+pages = {1113-1132},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1030534ijeter2021019122021,
+title = {Comparison of Multi-Objective Evolutionary Algorithms to Prioritize Regression Test Cases},
+abstract = {Regression testing is one of the most critical testing activities among software product verification activities. Nevertheless, resources and time constraints could inhibit the execution of a full regression test suite, hence leaving us in confusion on what test cases to run to preserve the high quality of software products. Different techniques can be applied to prioritize test cases in resource-constrained environments, such as manual selection, automated selection, or hybrid approaches. Different Multi-Objective Evolutionary Algorithms (MOEAs) have been used in this domain to find an optimal solution to minimize the cost of executing a regression test suite while obtaining maximum fault detection coverage as if the entire test suite was executed. MOEAs achieve this by selecting set of test cases and determining the order of their execution. In this paper, three Multi Objective Evolutionary Algorithms, namely, NSGA-II, IBEA and MoCell are used to solve test case prioritization problems using the fault detection rate and branch coverage of each test case. The paper intends to find out what’s the most effective algorithm to be used in test cases prioritization problems, and which algorithm is the most efficient one, and finally we examined if changing the fitness function would impose a change in results. Our experiment revealed that NSGA-II is the most effective and efficient MOEA; moreover, we found that changing the fitness function caused a significant reduction in evolution time, although it did not affect the coverage metric.},
+doi = {10.30534/ijeter/2021/019122021},
+year = {2021},
+journal = {International Journal of Emerging Trends in Engineering Research},
+pages = {1445-1454},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icsm20116080805,
+title = {A clustering approach to improving test case prioritization: An industrial case study},
+abstract = {Regression testing is an important activity for controlling the quality of a software product, but it accounts for a large proportion of the costs of software. We believe that an understanding of the underlying relationships in data about software systems, including data correlations and patterns, could provide information that would help improve regression testing techniques. We conjecture that if test cases have common properties, then test cases within the same group may have similar fault detection ability. As an initial approach to investigating the relationships in massive data in software repositories, in this paper, we consider a clustering approach to help improve test case prioritization. We implemented new prioritization techniques that incorporate a clustering approach and utilize code coverage, code complexity, and history data on real faults. To assess our approach, we have designed and conducted empirical studies using an industrial software product, Microsoft Dynamics Ax, which contains real faults. Our results show that test case prioritization that utilizes a clustering approach can improve the effectiveness of test case prioritization techniques.},
+doi = {10.1109/icsm.2011.6080805},
+year = {2011},
+pages = {382-391},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1017531ein202034,
+title = {A novel test case prioritization method based on problems of numerical software code statement defect prediction},
+abstract = {Test case prioritization (TCP) has been considerably utilized to arrange the implementation order of test cases, which contributes to improve the efficiency and resource allocation of software regression testing. Traditional coverage-based TCP techniques, such as statement-level, method/function-level and class-level, only leverages program code coverage to prioritize test cases without considering the probable distribution of defects. However, software defect data tends to be imbalanced following Pareto principle. Instinctively, the more vulnerable the code covered by the test case is, the higher the priority it is. Besides, statement-level coverage is a more fine-grained method than function-level coverage or class-level coverage, which can more accurately formulate test strategies. Therefore, we present a test case prioritization approach based on statement software defect prediction to tame the limitations of current coverage-based techniques in this paper. Statement metrics in the source code are extracted and data pre-processing is implemented to train the defect predictor. And then the defect detection rate of test cases is calculated by combining the prioritization strategy and prediction results. Finally, the prioritization performance is evaluated in terms of average percentage faults detected in four open source datasets. We comprehensively compare the performance of the proposed method under different prioritization strategies and predictors. The experimental results show it is a promising technique to improve the prevailing coverage-based TCP methods by incorporating statement-level defect-proneness. Moreover, it is also concluded that the performance of the additional strategy is better than that of max and total, and the choice of the defect predictor affects the efficiency of the strategy.},
+doi = {10.17531/ein.2020.3.4},
+year = {2020},
+journal = {Eksploatacja i Niezawodnosc - Maintenance and Reliability},
+pages = {419-431},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_105121ijcsea20122305,
+title = {A Novel Approach for Test Case Prioritization},
+abstract = {Test case prioritization techniques basically schedule the execution of test cases in a definite order such that to attain an objective function with greater efficiency. This scheduling of test cases improves the results of regression testing. Test case prioritization techniques order the test cases such that the most important ones are executed first encountering the faults first and thus makes the testing effective. In this paper an approach is presented which calculates the product of statement coverage and function calls. The results illustrate the effectiveness of formula computed with the help of APFD metric.},
+doi = {10.5121/ijcsea.2012.2305},
+year = {2012},
+journal = {International Journal of Computer Science Engineering and Applications},
+pages = {53-60},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_1014416jijast201511002,
+title = {Filtering Test Case Selection for Increasing the Performance of Regression Testing},
+abstract = {Under the concept of using software testing, the problems are preparing the smallest size of the selected test cases, fixing bugs, predicting the estimated testing time and numbers of the tester. The traditional methods are developed to solve these issues. Unfortunately, they cannot be applied for all reasons. Therefore, the filtering test case selection model is proposed to solve these problems and to increase the efficiency of the regression testing. It prepares the methods of filtering, classifying, and selecting the appropriate test cases. Accordingly, it gives the smaller size of the selected test cases than the traditional selections as 0.23–3.96%. When consider the fault rate measured by the developed technique is also less than those methods equivalent to 13–69%. Furthermore, the testing time and the amount of testers are also less than the comparative studies as about 2–71%, and 13–69% respectively.},
+doi = {10.14416/j.ijast.2015.11.002},
+year = {2015},
+journal = {KMUTNB International Journal of Applied Science and Technology},
+pages = {19-25},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109icsm20095306350,
+title = {Prioritizing JUnit test cases in absence of coverage information},
+abstract = {Better orderings of test cases can detect faults in less time with fewer resources, and thus make the debugging process earlier and accelerate software delivery. As a result, test case prioritization has become a hot topic in the research of regression testing. With the popularity of using the JUnit testing framework for developing Java software, researchers also paid attention to techniques for prioritizing JUnit test cases in regression testing of Java software. Typically, most of them are based on coverage information of test cases. However, coverage information may need extra costs to acquire. In this paper, we propose an approach (named Jupta) for prioritizing JUnit test cases in absence of coverage information. Jupta statically analyzes call graphs of JUnit test cases and the software under test to estimate the test ability (TA) of each test case. Furthermore, Jupta provides two prioritization techniques: the total TA based technique (denoted as JuptaT) and the additional TA based technique (denoted as JuptaA). To evaluate Jupta, we performed an experimental study on two open source Java programs, containing 11 versions in total. The experimental results indicate that Jupta is more effective and stable than the untreated orderings and Jupta is approximately as effective and stable as prioritization techniques using coverage information at the method level.},
+doi = {10.1109/icsm.2009.5306350},
+year = {2009},
+pages = {19-28},
+note = {Found via snowballing (OpenAlex)}
+}
+
+@article{snowball_101109apsec200863,
+title = {Test Case Prioritization Based on Analysis of Program Structure},
+abstract = {Test case prioritization techniques have been empirically proved to be effective in improving the rate of fault detection in regression testing. However, most of previous techniques assume that all the faults have equal severity, which dose not meet the practice. In addition, because most of the existing techniques rely on the information gained from previous execution of test cases or source code changes, few of them can be directly applied to non-regression testing. In this paper, aiming to improve the rate of severe faults detection for both regression testing and non-regression testing, we propose a novel test case prioritization approach based on the analysis of program structure. The key idea of our approach is the evaluation of testing-importance for each module (e.g., method) covered by test cases. As a proof of concept, we implement $Apros$, a test case prioritization tool, and perform an empirical study on two real, non-trivial Java programs. The experimental result represents that our approach could be a promising solution to improve the rate of severe faults detection.},
+doi = {10.1109/apsec.2008.63},
+year = {2008},
+pages = {471-478},
+note = {Found via snowballing (OpenAlex)}
+}
