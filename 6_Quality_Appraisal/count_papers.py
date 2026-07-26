@@ -13,7 +13,7 @@ import re
 import sys
 
 folder = sys.argv[1] if len(sys.argv) > 1 else "."
-path = os.path.join(os.path.abspath(folder), "QualityAppraisal.bib")
+path = os.path.join(os.path.abspath(folder), "QualityAppraisal_WithIDQ.bib")
 
 if not os.path.isfile(path):
     print(f"File not found: {path}")
