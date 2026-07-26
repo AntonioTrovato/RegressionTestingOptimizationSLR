@@ -1,0 +1,39 @@
+An Empirical Study on Bayesian Network-based Approach for Test Case Prioritization
+The Effectiveness of Regression Testing Techniques in Reducing the Occurrence of Residual Defects
+A test suite reduction approach based on pairwise interaction of requirements
+Prioritizing test cases for regression testing
+Reducing the cost of regression testing by semantics guided test case selection
+Test Case Prioritization Based on Varying Testing Requirement Priorities and Test Case Costs
+Optimal Regression Testing Based on Selective Coverage of Test Requirements
+Analyzing Model Dependencies for Rule-based Regression Test Selection.
+Test case prioritization for regression testing of service-oriented business applications
+12.4 - Machine Learning-Driven Test Case Prioritization Approaches for Black-Box Software Testing
+A Genetic Algorithm for Fault based Regression Test Case Prioritization
+Measuring the Effectiveness of Test Case Prioritization Techniques Based on Weight Factors
+Point-of-Interest Aware Test Case Prioritization: Methods and Experiments
+System test case prioritization of new and regression test cases
+Test Suite Minimization of Evolving Software Systems: A Case Study
+Applying Particle Swarm Optimization to Prioritizing Test Cases for Embedded Real Time Software Retesting
+Software testing suite prioritization using multi-criteria fitness function
+Class specification implementation graphs and their application in regression testing
+Clustering Test Cases in Web Application Regression Testing using Self-Organizing Maps
+Test Case Prioritization for Web Service Regression Testing
+Historical Value-Based Approach for Cost-Cognizant Test Case Prioritization to Improve the Effectiveness of Regression Testing
+A Coverage Relationship Model for Test Case Selection and Ranking for Multi-version Software
+An Empirical Study of JUnit Test-Suite Reduction
+Test case prioritization: an empirical study
+Incorporating varying requirement priorities and costs in test case prioritization for new and regression testing
+Adaptive Random Test Case Prioritization
+A controlled experiment assessing test case prioritization techniques via mutation faults
+Industrial experiences with automated regression testing of a legacy database application
+An empirical study of the effect of time constraints on the cost-benefits of regression testing
+Test Case Prioritization for Audit Testing of Evolving Web Services Using Information Retrieval Techniques
+Tag-Based Techniques for Black-Box Test Case Prioritization for Service Testing
+Oracle-Centric Test Case Prioritization
+Automatic test case selection and generation for regression testing of composite service based on extensible BPEL flow graph
+Modeling the cost-benefits tradeoffs for regression testing techniques
+Design and Analysis of Cost-Cognizant Test Case Prioritization Using Genetic Algorithm with Test History
+An empirical study on the effectiveness of time-aware test case prioritization techniques
+A clustering approach to improving test case prioritization: An industrial case study
+Prioritizing JUnit test cases in absence of coverage information
+Test Case Prioritization Based on Analysis of Program Structure
