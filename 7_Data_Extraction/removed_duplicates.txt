@@ -1,0 +1,85 @@
+DUPLICATE PAPERS REMOVED FROM DataExtraction.xlsx (same title appearing more than once; the first copy was kept)
+
+1. An Effective Approach for Regression Test Case Selection Using Pareto Based Multi-Objective Harmony Search
+     removed copy authors: Choudhary, Ankur and Agrawal, Arun Prakash and Kaur, Arvinder
+     kept copy authors:    Choudhary, Ankur and Agrawal, Arun Prakash and Kaur, Arvinder
+
+2. Using Controlled Numbers of Real Faults and Mutants to Empirically Evaluate Coverage-Based Test Case Prioritization
+     removed copy authors: Paterson, David and Kapfhammer, Gregory and Fraser, Gordon and McMinn, Phil
+     kept copy authors:    Paterson, David and Kapfhammer, Gregory M. and Fraser, Gordon and McMinn, Phil
+
+3. Test Suite Reduction for Self-Organizing Systems: A Mutation-Based Approach
+     removed copy authors: Reichstaller, André and Eberhardinger, Benedikt and Ponsar, Hella and Knapp, Alexander and Reif, Wolfgang
+     kept copy authors:    Reichstaller, Andr\'{e} and Eberhardinger, Benedikt and Ponsar, Hella and Knapp, Alexander and Reif, Wolfgang
+
+4. A refactoring-based approach for test case selection and prioritization
+     removed copy authors: Alves, Everton L. G. and Machado, Patricia D. L. and Massoni, Tiago and Santos, Samuel T. C.
+     kept copy authors:    Alves, Everton L. G. and Machado, Patricia D. L. and Massoni, Tiago and Santos, Samuel T. C.
+
+5. Conc-iSE: Incremental symbolic execution of concurrent software
+     removed copy authors: Guo, Shengjian and Kusano, Markus and Wang, Chao
+     kept copy authors:    Guo, Shengjian and Kusano, Markus and Wang, Chao
+
+6. Test Case Prioritization for GUI Regression Testing Based on Centrality Measures
+     removed copy authors: Ren, Yijie and Yin, Bei-Bei and Wang, Bin
+     kept copy authors:    Ren, Yijie and Yin, Bei-Bei and Wang, Bin
+
+7. Test case prioritization approaches in regression testing: A systematic literature review
+     removed copy authors: Khatibsyarbini, Muhammad and Isa, Mohd Adham and Jawawi, Dayang N.A. and Tumeng, Rooster
+     kept copy authors:    Muhammad Khatibsyarbini and Mohd Adham Isa and Dayang N.A. Jawawi and Rooster Tumeng
+
+8. Test Case Selection in Continuous Regression Testing Using Machine Learning: An Industrial Case Study
+     removed copy authors: Ahmad, Azeem and Rentas, Dimistris and Hasselqvist, Daniel and Sandberg, Pontus and Sandahl, Kristian and Vulgarakis, Aneta
+     kept copy authors:    Ahmad, Azeem and Rentas, Dimistris and Hasselqvist, Daniel and Sandberg, Pontus and Sandahl, Kristian and Vulgarakis, Aneta
+
+9. On the use of evolutionary algorithms for test case prioritization in regression testing considering requirements dependencies
+     removed copy authors: Vescan, Andreea and Chisalita-Cretu, Camelia and Serban, Camelia and Diosan, Laura
+     kept copy authors:    Vescan, Andreea and Chisalita-Cretu, Camelia and Serban, Camelia and Diosan, Laura
+
+10. Improved Test Case Selection Algorithm to Reduce Time in Regression Testing
+     removed copy authors: Ghani, Israr and Wan-Kadir, Wan M.N. and Arbain, Adila Firdaus and Ibrahim, Noraini
+     kept copy authors:    Israr Ghani and Wan M. N. Wan-Kadir and Adila Firdaus Arbain and Noraini Ibrahim
+
+11. Test Case Selection for All-Uses Criterion-Based Regression Testing of Composite Service
+     removed copy authors: Ji, Shunhui and Li, Bixin and Zhang, Pengcheng
+     kept copy authors:    Ji, Shunhui and Li, Bixin and Zhang, Pengcheng
+
+12. A Detection-Based Multi-Objective Test Case Selection Algorithm to Improve Time and Efficiency in Regression Testing
+     removed copy authors: Ghani, Israr and Wan Kadir, Wan Mohd Nasir and Arbain, Adila Firdaus and Ghani, Imran
+     kept copy authors:    Ghani, Israr and Wan Kadir, Wan Mohd Nasir and Arbain, Adila Firdaus and Ghani, Imran
+
+13. Nature Inspired Approaches for Test Case Selection in Regression Testing: A Review
+     removed copy authors: Chaudhary, Sonam and Choudhary, Ankur and Seth, Jyotsna
+     kept copy authors:    Chaudhary, Sonam and Choudhary, Ankur and Seth, Jyotsna
+
+14. Value-Based Test Case Prioritization for Regression Testing Using Genetic Algorithms
+     removed copy authors: Ahmed, Farrukh Shahzad and Majeed, Awais and Khan, Tamim Ahmed
+     kept copy authors:    Farrukh Shahzad Ahmed and Awais Majeed and Tamim Ahmed Khan
+
+15. Requirement dependencies-based formal approach for test case prioritization in regression testing
+     removed copy authors: Vescan, Andreea and Şerban, Camelia and Chisǎliţǎ-Creţu, Camelia and Dioşan, Laura
+     kept copy authors:    Vescan, Andreea and Şerban, Camelia and Chisăliţă-Cretu, Camelia and Dioşan, Laura
+
+16. Test case selection for black-box regression testing of database applications
+     removed copy authors: Rogstad, Erik and Briand, Lionel and Torkar, Richard
+     kept copy authors:    Erik Rogstad and Lionel Briand and Richard Torkar
+
+17. Test suite reduction methods that decrease regression testing costs by identifying irreplaceable tests
+     removed copy authors: Lin, Chu-Ti and Tang, Kai-Wei and Kapfhammer, Gregory M.
+     kept copy authors:    Chu-Ti Lin and Kai-Wei Tang and Gregory M. Kapfhammer
+
+18. Towards tool-support for test case selection in manual regression testing
+     removed copy authors: Buchgeher, Georg and Ernstbrunner, Christian and Ramler, Rudolf and Lusser, Michael
+     kept copy authors:    Buchgeher, Georg and Ernstbrunner, Christian and Ramler, Rudolf and Lusser, Michael
+
+19. Test case selection for data flow based regression testing of BPEL composite services
+     removed copy authors: Ji, Shunhui and Li, Bixin and Zhang, Pengcheng
+     kept copy authors:    Ji, Shunhui and Li, Bixin and Zhang, Pengcheng
+
+20. Modification Impact Analysis Based Test Case Prioritization for Regression Testing of Service-Oriented Workflow Applications
+     removed copy authors: Wang, Hongda and Xing, Jianchun and Yang, Qiliang and Han, Deshuai and Zhang, Xuewei
+     kept copy authors:    Wang, Hongda and Xing, Jianchun and Yang, Qiliang and Han, Deshuai and Zhang, Xuewei
+
+21. History-based dynamic test case prioritization for requirement properties in regression testing
+     removed copy authors: Wang, Xiaolin and Zeng, Hongwei
+     kept copy authors:    Wang, Xiaolin and Zeng, Hongwei

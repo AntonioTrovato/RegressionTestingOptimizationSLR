@@ -1,0 +1,111 @@
+On “Prioritizing Test Cases for Regression Testing”
+
+Risk Analysis-Based Test Case Prioritization for Regression Testing; [基于风险分析的回归测试用例优先级排序]
+
+Survey of test case prioritization techniques for regression testing -> NO ENGLISH
+
+An Empirical Study on Bayesian Network-based Approach for Test Case Prioritization
+
+Test Case Prioritization for Black Box Testing
+
+Reducing the cost of regression testing by semantics guided test case selection
+
+Test Case Prioritization Based on Varying Testing Requirement Priorities and Test Case Costs
+
+Test case prioritization for regression testing of service-oriented business applications
+
+Multiobjective Test Case Prioritization Using Test Case Effectiveness: Multicriteria Scoring Method
+
+An evolutionary algorithm for regression test suite reduction
+
+A Genetic Algorithm for Fault based Regression Test Case Prioritization
+
+System test case prioritization of new and regression test cases
+
+A Static Approach to Prioritizing JUnit Test Cases
+
+Applying Particle Swarm Optimization to Prioritizing Test Cases for Embedded Real Time Software Retesting
+
+Prioritizing test cases for regression testing. 
+
+Incorporating varying test costs and fault severities into test case prioritization
+
+Prioritizing tests for software fault diagnosis
+
+On test suite composition and cost-effective regression testing
+
+Class specification implementation graphs and their application in regression testing
+
+Historical Value-Based Approach for Cost-Cognizant Test Case Prioritization to Improve the Effectiveness of Regression Testing
+
+An Empirical Study of JUnit Test-Suite Reduction
+
+On the Use of Mutation Faults in Empirical Assessments of Test Case Prioritization Techniques
+
+Test case prioritization: an empirical study
+
+Incorporating varying requirement priorities and costs in test case prioritization for new and regression testing
+
+Adaptive Random Test Case Prioritization
+
+A controlled experiment assessing test case prioritization techniques via mutation faults
+
+Industrial experiences with automated regression testing of a legacy database application
+
+An empirical study of the effect of time constraints on the cost-benefits of regression testing
+
+Regression testing minimization, selection and prioritization: a survey
+
+Test Case Prioritization for Audit Testing of Evolving Web Services Using Information Retrieval Techniques
+
+Oracle-Centric Test Case Prioritization
+
+Automatic test case selection and generation for regression testing of composite service based on extensible BPEL flow graph
+
+Design and Analysis of Cost-Cognizant Test Case Prioritization Using Genetic Algorithm with Test History
+
+An empirical study on the effectiveness of time-aware test case prioritization techniques
+
+Search Algorithms for Regression Test Case Prioritization
+
+A Novel Approach for Test Case Prioritization
+
+An ontology based test case prioritization approach in regression testing -> DUPLICATED
+
+A fuzzy rule-based approach for test case selection probability estimation in regression testing  ->NO ACCESS
+
+Greedy Algorithm Implementation for Test Case Prioritization in the Regression Testing Phase -> NO ACCESS
+
+Novel technique for the test case prioritization in regression testing -> NO ACCESS
+
+Multi-Objective Modified Particle Swarm Optimization for Test Suite Reduction (MOMPSO). -> NO ACCESS
+
+Analisis Efektifitas Algoritma FAST Menggunakan Metrik Average Percentage Fault Detection dan Waktu Eksekusi Pada Test Case Prioritization -> NO ENGLISH
+
+Regression Test Case Prioritization Based on Fixed Size Candidate Set ART Algorithm -> NO ACCESS
+
+An Effective Regression Test Case Selection Using Hybrid Whale Optimization Algorithm -> NO ACCESS
+
+Metaheuristics for Multi Criteria Test Case Prioritization for Regression Testing -> NO ACCESS
+
+Performance Enhancement of Test Case Prioritization Using Hybrid Approach -> NO ACCESS
+
+Fault-Based Test Case Prioritization of Regression Testing Using Genetic Algorithm -> NO ACCESS
+
+Hybridization of Cuckoo-ACO algorithm for test case prioritization -> NO ACCESS
+
+K-Step Crossover Method based on Genetic Algorithm for Test Suite Prioritization in Regression Testing -> NO ACCESS
+
+GASSER: A Multi-Objective Evolutionary Approach for Test Suite Reduction -> NO ACCESS
+
+On the Applicability of Soft Computing Techniques in Regression Testing -> NO ACCESS
+
+On the Applicability of Soft Computing Techniques in Regression Testing -> NO ACCESS
+
+Effective test case selection and prioritization in regression testing -> NO ACCESS
+
+A Systematic Analysis and Exploration of the Regression Testing Techniques -> NO ACCESS
+
+Flower Pollination Algorithm for Test Case Prioritization in Regression Testing -> NON ACCESSIBLE
+
+Search for Prioritized Test Cases during Web Application Testing -> NON ACCESSIBLE

@@ -1,0 +1,6 @@
+PRIMARY STUDIES WITHOUT A PDF IN Analyzed_Studies/
+Save each pdf as <number>.pdf (number in brackets). If two numbers are shown, the paper is
+duplicated in QualityAppraisal.xlsx: either one works (use the first).
+
+[50 / 232]  (2013)  Towards Tool-Support for Test Case Selection in Manual Regression Testing
+      authors: Buchgeher, Georg and Ernstbrunner, Christian and Ramler, Rudolf and Lusser, Michael
